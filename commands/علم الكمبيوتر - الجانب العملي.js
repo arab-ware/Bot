@@ -40,6 +40,13 @@ if(temp === "Test Me") {
   
 }
 
+if(temp === "Short") {
+  
+  Bot.sendMessage("https://t.me/kufa2023/793")
+  
+}
+
+
 if(temp === "Youtube") {
   
   const link3 = "محاضرات Microsoft Word الفيديوية :\n\n🤝 شرح استاذ المادة الجزء الاول - نظري فقط\n\nhttps://youtu.be/mId6OP-Z-Ys\n\n🤝 شرح استاذ المادة الجزء الثاني - نظري فقط\n\nhttps://youtu.be/mL32mqBs9pY\n\n🤝 شرح استاذ المادة الجزء الثالث - نظري فقط\n\nhttps://youtu.be/dfJzauQInoQ\n\n🤝 شرح خارجي للبرنامج - تطبيق عملي\n\nhttps://youtube.com/playlist?list=PL1d%5Fpoq9IYFs-VbDN0h0OwbHfcfU-ljNe\n\nمحاضرات Microsoft PowerPoint الفيديوية :\n\n🤝 شرح استاذ المادة - نظري فقط\n\nhttps://youtu.be/EiVbOiyTkLo\n\n🤝 شرح خارجي شامل عملي\n\nhttps://youtu.be/po70jHtTskI";
