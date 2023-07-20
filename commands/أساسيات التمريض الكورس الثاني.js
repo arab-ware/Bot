@@ -1,5 +1,5 @@
 /*CMD
-  command: أساسيات التمريض
+  command: أساسيات التمريض الكورس الثاني
   help: 
   need_reply: false
   auto_retry_time: 
