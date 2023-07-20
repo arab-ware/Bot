@@ -23,6 +23,7 @@ const urinary = "Urinary System"
 const dictionary = "القاموس الطبي"
 const homework = "الواجب"
 const allSubject = "مصطلحات المادة كلها"
+const abbreviations = "الاختصارات"
 const close = "إغلاق و رجوع"
 const close_only = "إغلاق فقط"
 const x = "\n"
@@ -48,7 +49,7 @@ Bot.sendMessage("https://t.me/kufa2023/731")
   
 } else if(temp === "Short") {
 
-Bot.sendKeyboard(medical+x+cardiovascular+x+blood+x+respiratory+x+urinary+x+allSubject+x+close+x+close_only,msg)
+Bot.sendKeyboard(medical+x+cardiovascular+x+blood+x+respiratory+x+urinary+x+allSubject+x+abbreviations+x+close+x+close_only,msg)
 
 } else {
 
