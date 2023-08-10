@@ -23,6 +23,7 @@ const medical_terminology = "المصطلحات الطبية"
 const arabic = "اللغة العربية"
 const close = "إغلاق و رجوع"
 const stageOne = "المرحلة الأولى"
+const computer_one = "علم الكمبيوتر - الجانب النظري"
 const x = "\n "
 const msg = "يرجى اختيار المادة لو سمحت"
 const anatomy = "تشريح جسم الإنسان"
@@ -36,7 +37,7 @@ const hga = "" + Bot.getProperty("course" + user.id)
 
 if(hga === "الكورس الأول") {
   
-  Bot.sendKeyboard(nurse_basic + x + anatomy + x + practical_anatomy + x + biochemistry + x + lab_biochemistry + x + ethics + x + close + x + stageOne  , msg)
+  Bot.sendKeyboard(nurse_basic + x + anatomy + x + practical_anatomy + x + biochemistry + x + lab_biochemistry + x + ethics + x + computer_one + x + close + x + stageOne  , msg)
     
 } else {
 

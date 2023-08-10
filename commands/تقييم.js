@@ -57,4 +57,3 @@ const toWhere = user.telegramid
 const messageP = 616
 
 forwardMessageToTelegram(fromWhere, toWhere, messageP)
-

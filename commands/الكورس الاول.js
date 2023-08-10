@@ -24,8 +24,9 @@ const about_us = "قائمة المجموعات و القنوات الخاصة �
 const old = "الأسئلة القديمة للدفعات السابقة"
 const close = "إغلاق و رجوع"
 const close2 = "المرحلة الأولى"
+const drs = "الحذوفات"
 const msg = "قم باختيار ما تريده لو سمحت"
 const x = "\n"
 Bot.setProperty("command" + user.id , "الكورس الأول","string")
 Bot.setProperty("course" + user.id , "الكورس الأول" , "string")
-Bot.sendKeyboard(org + x + tnl + x + smr + x + question + x + old + x + youtube + x + about_us + x + close + x + close2 , msg)
+Bot.sendKeyboard(org + x + tnl + x + smr + x + question + x + old + x + youtube + x + about_us + x + drs + x + close + x + close2 , msg)

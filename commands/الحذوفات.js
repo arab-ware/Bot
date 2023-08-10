@@ -26,4 +26,14 @@ const msg = "يرجى اختيار المادة لو سمحت"
 
 Bot.setProperty("Type"+user.id,"YouDontHaveToRead","string")
 
+const hga = "" + Bot.getProperty("course" + user.id)
+
+if(hga === "الكورس الأول") {
+  
+  Bot.sendMessage("https://t.me/kufa2023/830")
+  
+} else {
+
 Bot.sendKeyboard(nurse_basic_two+x+medical_terminology+x+physiology+x+close+x+stageOne,msg)
+
+}

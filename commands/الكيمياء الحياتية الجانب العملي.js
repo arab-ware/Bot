@@ -55,7 +55,7 @@ if(temporary === "Old") {
 
 if(temporary === "Short") {
   
-Bot.sendMessage("https://t.me/biochemistry%5Fnursing/141");
+Bot.sendMessage("https://t.me/kufa2023/827");
   
 }
 

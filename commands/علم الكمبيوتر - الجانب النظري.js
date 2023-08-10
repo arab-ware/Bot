@@ -43,6 +43,6 @@ if(temporary === "Translation") {
 
 if(temporary === "Old") {
   
-  Bot.sendMessage("نعمل عليها")
+  Bot.sendMessage("https://t.me/kufa2023/822")
   
 }

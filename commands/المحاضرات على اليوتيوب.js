@@ -17,6 +17,7 @@ CMD*/
 
 const nurse_basic = "أساسيات التمريض الكورس الأول"
 const nurse_basic_two = "أساسيات التمريض الكورس الثاني"
+const practical_nurse_basic = "الجانب العملي من أساسيات التمريض"
 const physiology = "فسلجة جسم الإنسان"
 const medical_terminology = "المصطلحات الطبية"
 const computer_one = "علم الكمبيوتر - الجانب النظري"
@@ -41,10 +42,10 @@ const hga = "" + Bot.getProperty("course" + user.id)
 
 if(hga === "الكورس الأول") {
   
-  Bot.sendKeyboard(nurse_basic + x + anatomy + x + biochemistry + x + lab_biochemistry + x + close + x + stageOne , msg)
+  Bot.sendKeyboard(nurse_basic + x + anatomy + x + biochemistry + x + lab_biochemistry + x + practical_nurse_basic + x + close + x + stageOne , msg)
     
 } else {
 
-Bot.sendKeyboard(nurse_basic_two + x + physiology + x + medical_terminology + x + computer_two + x + arabic + x + close + x + stageOne , msg)
+Bot.sendKeyboard(nurse_basic_two + x + physiology + x + medical_terminology + x + computer_two + x + arabic + x + practical_nurse_basic + x + close + x + stageOne , msg)
 
 }
