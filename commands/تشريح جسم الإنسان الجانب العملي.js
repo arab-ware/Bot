@@ -48,3 +48,9 @@ if(temporary === "Old") {
 Bot.sendMessage("أسئلة شهرية مع الحل :\nhttps://t.me/anatomy%5Fkufa/2131\nأسئلة الفاينل مع الحل :\nhttps://t.me/anatomy%5Fkufa/2132")
   
 }
+
+if(temporary === "Short") {
+  
+  Bot.sendMessage("https://t.me/kufa2023/831")
+  
+}

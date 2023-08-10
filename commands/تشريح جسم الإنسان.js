@@ -63,6 +63,6 @@ Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+L7+line+exit+line+exit_
 
 if(temporary === "Short") {
   
-Bot.sendMessage("https://t.me/anatomy%5Fkufa/2117")
+Bot.sendMessage("https://t.me/kufa2023/821")
   
 }
