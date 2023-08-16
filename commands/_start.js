@@ -20,5 +20,8 @@ const msg = "قم باختيار المرحلة الدراسية لو سمحت"
 const a = "المرحلة الأولى"
 const b = "المرحلة الثانية"
 const c = "تقييم"
+const d = "الاختصارات - المرحلة الأولى"
+const e = "شنو المهم؟"
+const f = "مصادر علمية و ملفات جامعية"
 Bot.sendMessage(startMessageText)
-Bot.sendKeyboard(a+"\n"+b+"\n"+c,msg)
+Bot.sendKeyboard(a+"\n"+d+"\n"+b+"\n" + f + "\n" + c,msg)
