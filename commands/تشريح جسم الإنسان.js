@@ -51,7 +51,7 @@ Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+L6+line+L7+line+exit+li
 
 if(temporary === "Old") {
   
-Bot.sendMessage("أسئلة الدفعات السابقة مع الحل :\nhttps://t.me/anatomy%5Fkufa/2116\nامتحان الشهر الأول + الشهر الثاني مع الحل :\nhttps://t.me/anatomy%5Fkufa/2114\nhttps://t.me/anatomy%5Fkufa/2115")
+Bot.sendMessage("أسئلة الدفعات السابقة مع الحل :\nhttps://t.me/kufa2023/842\nامتحان الشهر الأول + الشهر الثاني مع الحل :\nhttps://t.me/anatomy%5Fkufa/2114\nhttps://t.me/anatomy%5Fkufa/2115")
   
 }
 

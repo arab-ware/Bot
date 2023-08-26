@@ -1,5 +1,5 @@
 /*CMD
-  command: المرحلة الثانية
+  command: اختصار مادة اللغة الإنجليزية
   help: 
   need_reply: false
   auto_retry_time: 
@@ -16,4 +16,3 @@
 CMD*/
 
 Bot.sendMessage("قريبا ان شاء الله")
-Bot.sendMessage("قم باستخدام زر \n الاختصارات - المرحلة الثانية بدلا عن هذا")

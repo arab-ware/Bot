@@ -30,11 +30,12 @@ const twelve = "اختصار علم الكمبيوتر النظري"
 const thirteen = "اختصار علم الكمبيوتر العملي"
 const fourteen = "اختصار اللغة الإنجليزية الكورس الأول"
 const fifteen = "اختصار اللغة الإنجليزية الكورس الثاني"
+const sixteen = "اختصار المصطلحات الطبية"
 const close = "إغلاق و رجوع"
 const x = "\n"
 const msg = "قم باختيار ما تريده لو سمحت"
 
-Bot.sendKeyboard(one + x + two + x + three + x + four + x + five + x + six + x + seven + x + eight + x + nine + x + ten + x + eleven + x + twelve + x + thirteen + x + fourteen + x + fifteen + x + close , msg)
+Bot.sendKeyboard(one + x + two + x + three + x + four + x + five + x + six + x + seven + x + eight + x + nine + x + ten + x + eleven + x + twelve + x + thirteen + x + fourteen + x + fifteen + x + sixteen + x + close , msg)
 
 
 

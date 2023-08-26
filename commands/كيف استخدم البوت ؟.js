@@ -1,5 +1,5 @@
 /*CMD
-  command: اختصار اللغة العربية
+  command: كيف استخدم البوت ؟
   help: 
   need_reply: false
   auto_retry_time: 
@@ -36,6 +36,4 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/english_for_nursing/801",user.telegramid)
-Bot.sendMessage("https://t.me/english%5Ffor%5Fnursing/874")
-
+ForwardMessage("https://t.me/kufa_nurse_college/602" , user.telegramid)

@@ -1,5 +1,5 @@
 /*CMD
-  command: اختصار اللغة العربية
+  command: اختصار علم الأدوية الكورس الأول
   help: 
   need_reply: false
   auto_retry_time: 
@@ -36,6 +36,12 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/english_for_nursing/801",user.telegramid)
-Bot.sendMessage("https://t.me/english%5Ffor%5Fnursing/874")
-
+ForwardMessage("https://t.me/abcdefehduauqu/2781" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2774" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2775" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2776" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2777" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2778" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2779" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2780" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2782" , user.telegramid)
