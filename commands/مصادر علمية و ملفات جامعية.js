@@ -21,17 +21,23 @@ function ForwardMessage(link, chat_id) {
         const from_chat_id = `@${matches[1]}`;
         const message_id = parseInt(matches[2]);
         
-        Api.forwardMessage({
-            from_chat_id: from_chat_id,
-            chat_id: chat_id,
-            message_id: message_id
-        });
+
+HTTP.post({
+      url: "https://api.telegram.org/bot" + bot.token + "/copyMessage",
+      body: {
+        from_chat_id: from_chat_id,
+        chat_id: chat_id,
+        message_id: message_id
+      }
+    })
+        
     } else {
         Bot.sendMessage("حدث خطأ يرجى مراسلة المطور فضلا لا امرا \n @programmer_ameer")
     }
 }
 
 ForwardMessage("https://t.me/abcdefehduauqu/2687",user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2689",user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2660",user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2661",user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2662",user.telegramid)

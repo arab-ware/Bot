@@ -1,5 +1,5 @@
 /*CMD
-  command: اختصار اللغة العربية
+  command: اختصار مادة الفسلجة المرضية
   help: 
   need_reply: false
   auto_retry_time: 
@@ -36,6 +36,10 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/english_for_nursing/801",user.telegramid)
-Bot.sendMessage("https://t.me/english%5Ffor%5Fnursing/874")
-
+ForwardMessage("https://t.me/abcdefehduauqu/2797" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2798" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2799" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2800" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2801" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2802" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2803" , user.telegramid)

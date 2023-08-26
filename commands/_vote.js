@@ -1,5 +1,5 @@
 /*CMD
-  command: اختصار اللغة العربية
+  command: /vote
   help: 
   need_reply: false
   auto_retry_time: 
@@ -23,7 +23,7 @@ function ForwardMessage(link, chat_id) {
         
 
 HTTP.post({
-      url: "https://api.telegram.org/bot" + bot.token + "/copyMessage",
+      url: "https://api.telegram.org/bot" + bot.token + "/forwardMessage",
       body: {
         from_chat_id: from_chat_id,
         chat_id: chat_id,
@@ -36,6 +36,4 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/english_for_nursing/801",user.telegramid)
-Bot.sendMessage("https://t.me/english%5Ffor%5Fnursing/874")
-
+ForwardMessage("https://t.me/abcdefehduauqu/2804" , user.telegramid)

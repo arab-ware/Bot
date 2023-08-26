@@ -1,5 +1,5 @@
 /*CMD
-  command: اختصار اللغة العربية
+  command: اختصار الأحياء المجهرية العملية الكورس الأول
   help: 
   need_reply: false
   auto_retry_time: 
@@ -36,6 +36,10 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/english_for_nursing/801",user.telegramid)
-Bot.sendMessage("https://t.me/english%5Ffor%5Fnursing/874")
-
+ForwardMessage("https://t.me/abcdefehduauqu/2783" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2784" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2785" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2786" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2787" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2788" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2789" , user.telegramid)
