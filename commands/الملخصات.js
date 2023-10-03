@@ -34,6 +34,8 @@ const ethics = "أخلاقيات التمريض"
 const biochemistry = "الكيمياء الحياتية"
 const lab_biochemistry = "الكيمياء الحياتية الجانب العملي"
 const a = "الملخصات"
+const returnToCourse = "الكورس الاول"
+const returnToCourseTwo = "الكورس الثاني"
 
 Bot.setProperty("Type" + user.id , "Short" , "string")
 
@@ -43,11 +45,11 @@ const hga = "" + Bot.getProperty("course" + user.id)
 
 if(hga === "الكورس الأول") {
   
-  Bot.sendKeyboard(anatomy + x + biochemistry + x + lab_biochemistry + x + english + x + practical_nurse_basic + x + practical_anatomy + x + x + close + x + stageOne , msg)
+  Bot.sendKeyboard(anatomy + x + biochemistry + x + lab_biochemistry + x + english + x + practical_nurse_basic + x + practical_anatomy + x + x + close + x + stageOne + x + returnToCourse , msg)
     
 } else {
 
 
-Bot.sendKeyboard(physiology + x + practical_physiology + x + medical_terminology + x + english_two + x + computer + x + practical_nurse_basic + x + close + x + stageOne , msg)
+Bot.sendKeyboard(physiology + x + practical_physiology + x + medical_terminology + x + english_two + x + computer + x + practical_nurse_basic + x + close + x + stageOne + x + returnToCourseTwo , msg)
 
 }

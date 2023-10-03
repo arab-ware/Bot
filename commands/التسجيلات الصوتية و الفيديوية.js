@@ -24,11 +24,14 @@ const x = "\n"
 const close = "إغلاق و رجوع"
 const stageOne = "المرحلة الأولى"
 const msg = "قم باختيار المادة لو سمحت"
+const returnToCourse = "الكورس الاول"
+const returnToCourseTwo = "الكورس الثاني"
+
 Bot.setProperty("Type"+user.id,"Record","string")
 
 const a = "التسجيلات الصوتية و الفيديوية"
 
 Bot.setProperty("command" + user.id , a , "string")
 
-Bot.sendKeyboard(nurse_basic_two+x+english_two+x+physiology+x+close+x+stageOne,msg)
+Bot.sendKeyboard(nurse_basic_two+x+english_two+x+physiology+x+close+x+stageOne + x + returnToCourseTwo ,msg)
 

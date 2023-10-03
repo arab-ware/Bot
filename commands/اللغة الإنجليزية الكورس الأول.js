@@ -15,14 +15,49 @@
   aliases: 
 CMD*/
 
+function ForwardMessage(link) {
+  const resultLink = link.replaceAll("%5F" , "_")
+    const matches = resultLink.match(/\/(\w+)\/(\d+)/);
+    if (matches && matches.length === 3) {
+        const from_chat_id = `@${matches[1]}`;
+        const message_id = parseInt(matches[2]);
+        
+
+HTTP.post({
+      url: "https://api.telegram.org/bot" + bot.token + "/copyMessage",
+      body: {
+        from_chat_id: from_chat_id,
+        chat_id: user.telegramid,
+        message_id: message_id
+      }
+    })
+        
+    } else {
+        Bot.sendMessage("حدث خطأ يرجى مراسلة المطور فضلا لا امرا \n @programmer_ameer")
+    }
+}
+
+
 const temporary = "" + Bot.getProperty("Type" + user.id)
 if(temporary === "Original") {
   
-  Bot.sendMessage("https://t.me/kufa2023/811")
+  ForwardMessage("https://t.me/kufa2023/805")
+  ForwardMessage("https://t.me/kufa2023/806")
+  ForwardMessage("https://t.me/kufa2023/807")
+  ForwardMessage("https://t.me/kufa2023/808")
+  ForwardMessage("https://t.me/kufa2023/809")
+  ForwardMessage("https://t.me/kufa2023/810")
+  Bot.sendMessage("أعلاه الملازم الأصلية من مادة اللغة الإنجليزية الكورس الأول")
   
 } else if(temporary === "Translation") {
 
-Bot.sendMessage("https://t.me/kufa2023/816")
+ForwardMessage("https://t.me/kufa2023/805")
+  ForwardMessage("https://t.me/kufa2023/806")
+  ForwardMessage("https://t.me/kufa2023/812")
+  ForwardMessage("https://t.me/kufa2023/813")
+  ForwardMessage("https://t.me/kufa2023/814")
+  ForwardMessage("https://t.me/kufa2023/815")
+  Bot.sendMessage("أعلاه الملازم المترجمة من مادة اللغة الإنجليزية الكورس الأول")
 
 } else {
 

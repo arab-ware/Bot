@@ -36,6 +36,7 @@ HTTP.post({
     }
 }
 
+
 ForwardMessage("https://t.me/kufa_nursing_translation/151",user.telegramid)
 ForwardMessage("https://t.me/kufa_nursing_translation/153",user.telegramid)
 ForwardMessage("https://t.me/kufa_nursing_translation/155",user.telegramid)
@@ -48,10 +49,10 @@ ForwardMessage("https://t.me/anatomy_kufa/2114",user.telegramid)
 ForwardMessage("https://t.me/anatomy_kufa/2115",user.telegramid)
 ForwardMessage("https://t.me/kufa2023/842",user.telegramid)
 Bot.sendMessage("أعلاه اسئلة دفعتنا الشهرية و اسئلة دفعات سابقة مع الحل و الترجمة")
-ForwardMessage("https://t.me/kufa2023/817",user.telegramid)
-ForwardMessage("https://t.me/kufa2023/818",user.telegramid)
-ForwardMessage("https://t.me/kufa2023/819",user.telegramid)
-ForwardMessage("https://t.me/kufa2023/820",user.telegramid)
-ForwardMessage("https://t.me/kufa2023/821",user.telegramid)
+ForwardMessage("https://t.me/kufa2023/843",user.telegramid)
+ForwardMessage("https://t.me/kufa2023/844",user.telegramid)
+ForwardMessage("https://t.me/kufa2023/845",user.telegramid)
+ForwardMessage("https://t.me/kufa2023/846",user.telegramid)
+ForwardMessage("https://t.me/kufa2023/847",user.telegramid)
 Bot.sendMessage("اما بخصوص التسجيلات الصوتية و الفيديوية و الإختبارات عمل الطلبة و باقي الامور فهي متوفرة في البوت و المجموعة")
 Bot.sendMessage("بخصوص الحذوفات فقط محاضرة الجهاز التنفسي موضوع lungs الرئتين و انتبه موضوع العضلات التنفسية داخل و لا يعتبر ضمن الرئتين")
