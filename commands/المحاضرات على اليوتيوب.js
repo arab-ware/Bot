@@ -32,6 +32,9 @@ const practical_anatomy = "تشريح جسم الإنسان الجانب الع�
 const ethics = "أخلاقيات التمريض"
 const biochemistry = "الكيمياء الحياتية"
 const lab_biochemistry = "الكيمياء الحياتية الجانب العملي"
+const returnToCourse = "الكورس الاول"
+const returnToCourseTwo = "الكورس الثاني"
+
 Bot.setProperty("Type" + user.id , "Youtube" , "string")
 
 const a = "المحاضرات على اليوتيوب"
@@ -42,10 +45,10 @@ const hga = "" + Bot.getProperty("course" + user.id)
 
 if(hga === "الكورس الأول") {
   
-  Bot.sendKeyboard(nurse_basic + x + anatomy + x + biochemistry + x + lab_biochemistry + x + practical_nurse_basic + x + close + x + stageOne , msg)
+  Bot.sendKeyboard(nurse_basic + x + anatomy + x + biochemistry + x + lab_biochemistry + x + practical_nurse_basic + x + close + x + stageOne + x + returnToCourse , msg)
     
 } else {
 
-Bot.sendKeyboard(nurse_basic_two + x + physiology + x + medical_terminology + x + computer_two + x + arabic + x + practical_nurse_basic + x + close + x + stageOne , msg)
+Bot.sendKeyboard(nurse_basic_two + x + physiology + x + medical_terminology + x + computer_two + x + arabic + x + practical_nurse_basic + x + close + x + stageOne + x + returnToCourseTwo , msg)
 
 }

@@ -15,22 +15,51 @@
   aliases: 
 CMD*/
 
+function ForwardMessage(link) {
+  const resultLink = link.replaceAll("%5F" , "_")
+    const matches = resultLink.match(/\/(\w+)\/(\d+)/);
+    if (matches && matches.length === 3) {
+        const from_chat_id = `@${matches[1]}`;
+        const message_id = parseInt(matches[2]);
+        
+
+HTTP.post({
+      url: "https://api.telegram.org/bot" + bot.token + "/copyMessage",
+      body: {
+        from_chat_id: from_chat_id,
+        chat_id: user.telegramid,
+        message_id: message_id
+      }
+    })
+        
+    } else {
+        Bot.sendMessage("حدث خطأ يرجى مراسلة المطور فضلا لا امرا \n @programmer_ameer")
+    }
+}
+
+
 const temp = "" + Bot.getProperty("Type"+user.id)
 
 if(temp === "Original") {
   
-  const link = "برنامج Microsoft Word الجزء الاول :\n\nhttps://t.me/kufa2023/702\n\nبرنامج Microsoft Word الجزء الثاني :\n\nhttps://t.me/kufa2023/703\n\nبرنامج Microsoft PowerPoint :\n\nhttps://t.me/kufa2023/704"
-  
-  Bot.sendMessage(link)
+  ForwardMessage("https://t.me/kufa2023/702")
+  Bot.sendMessage("أعلاه الجزء الأول من محاضرة Microsoft Word")
+  ForwardMessage("https://t.me/kufa2023/703")
+  Bot.sendMessage("أعلاه الجزء الثاني من محاضرة Microsoft Word")
+  ForwardMessage("https://t.me/kufa2023/704")
+  Bot.sendMessage("أعلاه محاضرة Microsoft PowerPoint")
   
 }
 
 
 if(temp === "Translation") {
   
-  const link2 = "ملازم مادة علم الكمبيوتر العملية المترجمة 💻🖱 :\n\nمحاضرة برنامج Microsoft Word الجزء الاول :\n\nhttps://t.me/kufa%5Fnursing%5Ftranslation/40\n\nمحاضرة برنامج Microsoft Word الجزء الثاني :\n\nhttps://t.me/kufa%5Fnursing%5Ftranslation/67\n\nمحاضرة برنامج Microsoft PowerPoint :\n\nhttps://t.me/kufa%5Fnursing%5Ftranslation/93";
   
-  Bot.sendMessage(link2)
+  ForwardMessage("https://t.me/kufa_nursing_translation/40")
+  ForwardMessage("https://t.me/kufa_nursing_translation/67")
+  ForwardMessage("https://t.me/kufa_nursing_translation/93")
+  
+
   
 }
 

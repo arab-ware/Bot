@@ -15,6 +15,29 @@
   aliases: 
 CMD*/
 
+function ForwardMessage(link) {
+  const resultLink = link.replaceAll("%5F" , "_")
+    const matches = resultLink.match(/\/(\w+)\/(\d+)/);
+    if (matches && matches.length === 3) {
+        const from_chat_id = `@${matches[1]}`;
+        const message_id = parseInt(matches[2]);
+        
+
+HTTP.post({
+      url: "https://api.telegram.org/bot" + bot.token + "/copyMessage",
+      body: {
+        from_chat_id: from_chat_id,
+        chat_id: user.telegramid,
+        message_id: message_id
+      }
+    })
+        
+    } else {
+        Bot.sendMessage("حدث خطأ يرجى مراسلة المطور فضلا لا امرا \n @programmer_ameer")
+    }
+}
+
+
 const temp = "" + Bot.getProperty("Type" + user.id)
 
 const nervous = "Nervous System"
@@ -40,10 +63,11 @@ if(temp === "Record") {
  
   } else if (temp === "Old") {
   
-const phy66 = "أدناه اسئلة قديمة لدفعات ما قبل 2022-2023 مع الحل :\n\nhttps://t.me/kufa2023/777\n\nاما أدناه اسئلة شهرية لدفعة 2022-2023 ، الشهر الأول مع الحل :\n\nhttps://t.me/kufa2023/787\n\nاما أدناه اسئلة شهرية لدفعة 2022-2023 ، الشهر الثاني مع الحل :\n\nhttps://t.me/kufa2023/742\n\nاما أدناه اسئلة شهرية قديمة مع الحل :\n\nhttps://t.me/kufa2023/790";
+ForwardMessage("https://t.me/kufa2023/777")
+ForwardMessage("https://t.me/kufa2023/787")
+Bot.sendMessage("اسئلة امتحان الشهر الثاني مع الحل"+"\n"+"https://t.me/kufa2023/742")
+ForwardMessage("https://t.me/kufa2023/790")
 
-Bot.sendMessage(phy66)
-  
 } else if(temp === "Short") {
 
 Bot.sendKeyboard(blood+x+hormones+x+heart+x+respiratory+x+digestive+x+close+x+close_only,msg)

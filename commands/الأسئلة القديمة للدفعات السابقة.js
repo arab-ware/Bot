@@ -31,16 +31,19 @@ const practical_anatomy = "تشريح جسم الإنسان الجانب الع�
 const ethics = "أخلاقيات التمريض"
 const biochemistry = "الكيمياء الحياتية"
 const lab_biochemistry = "الكيمياء الحياتية الجانب العملي"
+const returnToCourse = "الكورس الاول"
+const returnToCourseTwo = "الكورس الثاني"
+
 Bot.setProperty("Type"+user.id,"Old","string")
 
 const hga = "" + Bot.getProperty("course" + user.id)
 
 if(hga === "الكورس الأول") {
   
-  Bot.sendKeyboard(nurse_basic + x + anatomy + x + practical_anatomy + x + biochemistry + x + lab_biochemistry + x + ethics + x + computer_one + x + close + x + stageOne  , msg)
+  Bot.sendKeyboard(nurse_basic + x + anatomy + x + practical_anatomy + x + biochemistry + x + lab_biochemistry + x + ethics + x + computer_one + x + close + x + stageOne + x + returnToCourse  , msg)
     
 } else {
 
-Bot.sendKeyboard(nurse_basic_two+x+physiology+x+practical_physiology+x+medical_terminology+x+arabic+x+close+x+stageOne,msg)
+Bot.sendKeyboard(nurse_basic_two+x+physiology+x+practical_physiology+x+medical_terminology+x+arabic+x+close+x+stageOne+x+returnToCourseTwo,msg)
 
 }

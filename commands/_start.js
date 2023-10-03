@@ -84,6 +84,14 @@ Bot.runCommand("اختصار المصطلحات الطبية")
 
 Bot.runCommand("اختصار أساسيات التمريض الجانب العملي")
 
+} else if(temporary === "bot_s2s") {
+
+Bot.runCommand("الاختصارات - المرحلة الثانية")
+
+} else if(temporary === "bot_sources") {
+
+Bot.runCommand("مصادر علمية و ملفات جامعية")
+
 }
   
   
@@ -102,7 +110,8 @@ const e = "شنو المهم؟"
 const f = "مصادر علمية و ملفات جامعية"
 const g = "الاختصارات - المرحلة الثانية"
 const h = "كيف استخدم البوت ؟"
+const i = "معلومات مفيدة للطلبة الجامعيين"
 
-Bot.sendKeyboard(a+"\n"+d+"\n"+b+"\n"+g+"\n" + f + "\n" + h + "\n" + c,msg)
+Bot.sendKeyboard(a+"\n"+d+"\n"+b+"\n"+g+"\n" + f + "\n" + i + "\n" + h + "\n" + c,msg)
 
 }

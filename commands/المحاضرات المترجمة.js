@@ -33,6 +33,9 @@ const close = "إغلاق و رجوع"
 const stageOne = "المرحلة الأولى"
 const x = "\n"
 const msg = "قم باختيار المادة لو سمحت"
+const returnToCourse = "الكورس الاول"
+const returnToCourseTwo = "الكورس الثاني"
+
 Bot.setProperty("Type" + user.id , "Translation" , "string")
 
 const a = "المحاضرات المترجمة"
@@ -43,10 +46,10 @@ const hga = "" + Bot.getProperty("course" + user.id)
 
 if(hga === "الكورس الأول") {
   
-  Bot.sendKeyboard(nurse_basic + x + anatomy + x + practical_anatomy + x + biochemistry + x + lab_biochemistry + x + computer_one + x + english + x + close + x + stageOne , msg)
+  Bot.sendKeyboard(nurse_basic + x + anatomy + x + practical_anatomy + x + biochemistry + x + lab_biochemistry + x + computer_one + x + english + x + close + x + stageOne + x + returnToCourse , msg)
   
 } else {
 
-Bot.sendKeyboard(nurse_basic_two + x + physiology + x + practical_physiology + x + medical_terminology + x + english_two + x + computer_two + x + close + x + stageOne , msg)
+Bot.sendKeyboard(nurse_basic_two + x + physiology + x + practical_physiology + x + medical_terminology + x + english_two + x + computer_two + x + close + x + stageOne + x + returnToCourseTwo , msg)
 
 }

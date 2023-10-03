@@ -39,9 +39,13 @@ function ForwardMessage(link, chat_id) {
 ForwardMessage("https://t.me/abcdefehduauqu/2753", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2754", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2755", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2837", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2756", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2839", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2757", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2758", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2759", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3008", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2760", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2952" , user.telegramid)
 

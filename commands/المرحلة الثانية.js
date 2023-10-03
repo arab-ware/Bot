@@ -15,5 +15,9 @@
   aliases: 
 CMD*/
 
-Bot.sendMessage("قريبا ان شاء الله")
-Bot.sendMessage("قم باستخدام زر \n الاختصارات - المرحلة الثانية بدلا عن هذا")
+const msg = "قم باختيار الفصل الدراسي لو سمحت"
+const a = "كورس اول"
+const b = "كورس ثاني"
+const c = "إغلاق و رجوع"
+Bot.sendKeyboard(a+"\n"+b+"\n"+c,msg)
+
