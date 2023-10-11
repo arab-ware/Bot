@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 const english = "اللغة الإنجليزية الكورس الأول"

@@ -13,5 +13,6 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 

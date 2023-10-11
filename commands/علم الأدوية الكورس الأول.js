@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 function ForwardMessage(link) {
@@ -90,7 +91,13 @@ if(temporary === "lectureYA") {
   
   if(temporary === "Old") {
     
-    Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
+    ForwardMessage("https://t.me/abcdefehduauqu/3024" , user.telegramid)
+    
+  }
+  
+  if(temporary === "current") {
+    
+    ForwardMessage("https://t.me/abcdefehduauqu/2807" , user.telegramid)
     
   }
 

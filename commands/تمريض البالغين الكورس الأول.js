@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 function ForwardMessage(link) {
@@ -57,7 +58,7 @@ const line = "\n"
 
 if(temporary === "Original") {
   
-  ForwardMessage("https://t.me/abcdefehduauqu/2700", user.telegramid)
+
 ForwardMessage("https://t.me/abcdefehduauqu/2701", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2703", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2705", user.telegramid)
@@ -99,11 +100,27 @@ if(temporary === "lectureYA") {
 ForwardMessage("https://t.me/abcdefehduauqu/3009" , user.telegramid)
     ForwardMessage("https://t.me/abcdefehduauqu/3010" , user.telegramid)
     
+    ForwardMessage("https://t.me/abcdefehduauqu/3056" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3053" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3054" , user.telegramid)
+    
+    ForwardMessage("https://t.me/abcdefehduauqu/3055" , user.telegramid)
+    
   }
   
   if(temporary === "Old") {
     
     ForwardMessage("https://t.me/abcdefehduauqu/3004" , user.telegramid)
+    
+  }
+  
+  if(temporary === "current") {
+    
+    ForwardMessage("https://t.me/abcdefehduauqu/2710" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3006" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/2708" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/2702", user.telegramid)
+    
     
   }
 

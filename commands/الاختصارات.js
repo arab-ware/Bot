@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 Bot.sendMessage("https://t.me/kufa2023/796")
