@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 function ForwardMessage(link) {
@@ -79,11 +80,20 @@ if (temporary === "lectureYA") {
   ForwardMessage("https://t.me/abcdefehduauqu/2955", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2956", user.telegramid)
   
-  ForwardMessage("https://t.me/abcdefehduauqu/3018", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3047", user.telegramid)
   
 }
 
 if (temporary === "Old") {
 ForwardMessage("https://t.me/abcdefehduauqu/3011", user.telegramid)
 }
+
+if(temporary === "current") {
+    
+    ForwardMessage("https://t.me/abcdefehduauqu/2824" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/2748" , user.telegramid)
+    
+    
+  }
+
 

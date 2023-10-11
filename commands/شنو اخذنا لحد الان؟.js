@@ -1,5 +1,5 @@
 /*CMD
-  command: اسئلة دفعات سابقة
+  command: شنو اخذنا لحد الان؟
   help: 
   need_reply: false
   auto_retry_time: 
@@ -35,18 +35,6 @@ const pc2 = "علم الأدوية الكورس الثاني"
 const returnToCourse = "كورس اول"
 const returnToCourseTwo = "كورس ثاني"
 
-Bot.setProperty("Type" + user.id , "Old" , "string")
-
-const hga = "" + Bot.getProperty("course" + user.id)
-
-if(hga === "الكورس الأول") {
+Bot.setProperty("Type" + user.id , "current" , "string")
   
-  Bot.sendKeyboard(an1 + x + mbt1 + x + mbp1 + x + ha_pe + x + pc1 + x + cpc1 + x + close + x + stageOne + x + returnToCourse , msg)
-  
-} else {
-
-
-Bot.sendKeyboard(an2 + x + mbt2 + x + pp + x + pc2 + x + cpc2 + x + en_s2 + x + close + x + stageOne + x + returnToCourseTwo , msg)
-
-}
-
+  Bot.sendKeyboard(an1 + x + mbt1 + x + mbp1 + x + ha_pe + x + pc1 + x + close, msg)

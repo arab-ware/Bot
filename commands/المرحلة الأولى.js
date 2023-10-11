@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 const msg = "قم باختيار الفصل الدراسي لو سمحت"

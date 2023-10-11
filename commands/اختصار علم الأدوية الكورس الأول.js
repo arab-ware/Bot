@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 function ForwardMessage(link, chat_id) {
@@ -54,3 +55,4 @@ ForwardMessage("https://t.me/abcdefehduauqu/2780" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2815" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2782" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2813" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3024" , user.telegramid)

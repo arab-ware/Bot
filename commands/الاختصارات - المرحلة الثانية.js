@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 const one = "اختصار تمريض البالغين الكورس الأول"

@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 function ForwardMessage(link) {
@@ -42,7 +43,8 @@ const temporary = "" + Bot.getProperty("Type" + user.id)
 
 if(temporary === "Original") {
   
-  ForwardMessage("https://t.me/abcdefehduauqu/2783" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3072" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2783" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2784" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2785" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2786" , user.telegramid)
@@ -54,14 +56,14 @@ ForwardMessage("https://t.me/abcdefehduauqu/2789" , user.telegramid)
 
 if(temporary === "Translation") {
   
-  ForwardMessage("https://t.me/abcdefehduauqu/2909" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3073" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3022" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2909" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2910" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2911" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2912" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2913" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2931" , user.telegramid)
-  
-Bot.sendMessage("تبقى محاضرة ، قريبا ان شاء الله")
 
 }
 
@@ -74,6 +76,13 @@ if(temporary === "lectureYA") {
   if(temporary === "Old") {
     
     Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
+    
+  }
+
+if(temporary === "current") {
+    
+    ForwardMessage("https://t.me/abcdefehduauqu/3073" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2913" , user.telegramid)
     
   }
 

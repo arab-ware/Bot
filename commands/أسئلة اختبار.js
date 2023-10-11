@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 const nurse_basic = "أساسيات التمريض الكورس الأول"

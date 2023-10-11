@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 Bot.runCommand("الاختصارات - المرحلة الأولى")

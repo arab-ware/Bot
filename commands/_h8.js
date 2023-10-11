@@ -13,49 +13,89 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 function ForwardMessage(link, chat_id) {
-    const matches = link.match(/\/(\w+)\/(\d+)/);
-    if (matches && matches.length === 3) {
-        const from_chat_id = `@${matches[1]}`;
-        const message_id = parseInt(matches[2]);
-        
+  const matches = link.match(/\/(\w+)\/(\d+)/)
+  if (matches && matches.length === 3) {
+    const from_chat_id = `@${matches[1]}`
+    const message_id = parseInt(matches[2])
 
-HTTP.post({
-      url: "https://api.telegram.org/bot" + bot.token + "/copyMessage",
-      body: {
-        from_chat_id: from_chat_id,
-        chat_id: chat_id,
-        message_id: message_id
-      }
-    })
-        
-    } else {
-        Bot.sendMessage("حدث خطأ يرجى مراسلة المطور فضلا لا امرا \n @programmer_ameer")
-    }
+    HTTP.post({
+      url: "https://api.telegram.org/bot" + bot.token + "/forwardMessage",
+      body: {
+        from_chat_id: from_chat_id,
+        chat_id: chat_id,
+        message_id: message_id
+      }
+    })
+  } else {
+    Bot.sendMessage(
+      "حدث خطأ يرجى مراسلة المطور فضلا لا امرا \n @programmer_ameer"
+    )
+  }
 }
 
+if (user.telegramid === 1318999805) {
+  const stringArray = [
+    "1092608729",
+    "1414322925",
+    "1136897224",
+    "2108460181",
+    "5847068177",
+    "6006796202",
+    "1341752850",
+    "956758867",
+    "1110855484",
+    "1179120058",
+    "713314820",
+    "5832873399",
+    "5416469653",
+    "1858924952",
+    "5607184292",
+    "6061609819",
+    "838118894",
+    "733414426",
+    "461441264",
+    "931114311",
+    "1175062256",
+    "5215443141",
+    "1862570880",
+    "1338920475",
+    "848006683",
+    "5403168765",
+    "1091420927",
+    "836860599",
+    "602813660",
+    "679224823",
+    "1330325672",
+    "1730471571",
+    "5147273073",
+    "1551705817",
+    "5724875712",
+    "977026373",
+    "964077695",
+    "1885020039",
+    "5844127957",
+    "6326920136",
+    "5825624563",
+    "1785246756",
+    "6615443963",
+    "5275511431",
+    "5009745246",
+    "1078579156",
+    "724378211",
+    "5412444495",
+    "986478576",
+    "1685643787"
+  ]
 
-if(user.telegramid === 1318999805) {
+  const numberArray = stringArray.map(str => parseInt(str))
 
-const stringArray = [
-    "901945998","451068799","1038185545","197588423","1179120058","1442045684",
-    "1175062256","1828097987","5820857122","929655948","5686168552","5821714566",
-    "1398391188","5804896219","5828096092","1685643787","6452226718","341925026",
-    "5955591509","1806231049","6404100514","1858924952","1064766237","1411268668",
-    "5255502140","5553520996","898582094","5628659908","6061609819","1132583031"
-];
-
-
-
-const numberArray = stringArray.map(str => parseInt(str));
-
-for (let i = 0; i < numberArray.length; i++) {
-    const number = numberArray[i];
-ForwardMessage("https://t.me/abcdefehduauqu/2950" , number)
-    // Your logic with the current number goes here
-    // For example, you can use it to copy to clipboard or perform other actions
-    
+  for (let i = 0; i < numberArray.length; i++) {
+    const number = numberArray[i]
+    ForwardMessage("https://t.me/abcdefehduauqu/3052", number) // Your logic with the current number goes here // For example, you can use it to copy to clipboard or perform other actions
+  }
 }
-}
+

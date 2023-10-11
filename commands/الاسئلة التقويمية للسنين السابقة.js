@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 Bot.sendMessage("قريبا ان شاء الله")

@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 function ForwardMessage(link) {
@@ -49,6 +50,7 @@ ForwardMessage("https://t.me/abcdefehduauqu/2756", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2757", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2758", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2759", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3050", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2760", user.telegramid)
   
 }
@@ -58,6 +60,7 @@ if(temporary === "Translation") {
 ForwardMessage("https://t.me/abcdefehduauqu/2837", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2839", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3008", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3051", user.telegramid)
 Bot.sendMessage("فقط هذه مترجمة حاليا ، باقي الملازم تتوفر في قسم الملازم الأصلية و كذلك في قسم الاختصارات - المرحلة الثانية")
   
 }
@@ -81,3 +84,13 @@ if(temporary === "Old") {
     ForwardMessage("https://t.me/abcdefehduauqu/2952" , user.telegramid)
     
   }
+  
+  if(temporary === "current") {
+    
+    ForwardMessage("https://t.me/abcdefehduauqu/2837" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/2839" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3008" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3051" , user.telegramid)
+    
+  }
+

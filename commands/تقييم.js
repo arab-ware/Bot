@@ -13,6 +13,7 @@
 
   KEYBOARD
   aliases: 
+  group: 
 CMD*/
 
 function forwardMessageToTelegram(fromWhere, toWhere, messageP) {
