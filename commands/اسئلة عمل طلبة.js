@@ -1,5 +1,5 @@
 /*CMD
-  command: شنو اخذنا لحد الان؟
+  command: اسئلة عمل طلبة
   help: 
   need_reply: false
   auto_retry_time: 
@@ -28,13 +28,24 @@ const cpc2 = "علم الكمبيوتر - الجانب العملي - الكور
 const close = "إغلاق و رجوع"
 const stageOne = "المرحلة الثانية"
 const x = "\n"
-const msg = "قم باختيار المادة لو سمحت ، تنويه هذه الميزة للمرحلة الثانية فقط "
+const msg = "قم باختيار المادة لو سمحت"
 const pp = "الفسلجة المرضية"
 const pc1 = "علم الأدوية الكورس الأول"
 const pc2 = "علم الأدوية الكورس الثاني"
 const returnToCourse = "كورس اول"
 const returnToCourseTwo = "كورس ثاني"
 
-Bot.setProperty("Type" + user.id , "current" , "string")
+Bot.setProperty("Type" + user.id , "students" , "string")
+
+const hga = "" + Bot.getProperty("course" + user.id)
+
+if(hga === "الكورس الأول") {
   
-  Bot.sendKeyboard(an1 + x + mbt1 + x + mbp1 + x + ha_pe + x + pc1 + x + close, msg)
+  Bot.sendKeyboard(an1 + x + mbt1 + x + mbp1 + x + ha_pe + x + pc1 + x + cpc1 + x + close + x + stageOne + x + returnToCourse , msg)
+  
+} else {
+
+
+Bot.sendMessage("قريبا ان شاء الله")
+
+}

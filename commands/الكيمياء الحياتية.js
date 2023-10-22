@@ -57,13 +57,22 @@ const line = "\n"
 
 if(temporary === "Original") {
   
-  Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+exit+line+exit_only , msg)
+  ForwardMessage("https://t.me/biochemistry_nursing/131")
+ForwardMessage("https://t.me/biochemistry_nursing/133")
+ForwardMessage("https://t.me/biochemistry_nursing/135")
+ForwardMessage("https://t.me/biochemistry_nursing/137")
+ForwardMessage("https://t.me/biochemistry_nursing/139")
+  
   
 }
 
 if(temporary === "Translation") {
   
-Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+exit+line+exit_only , msg)
+ForwardMessage("https://t.me/biochemistry_nursing/132")
+ForwardMessage("https://t.me/biochemistry_nursing/134")
+ForwardMessage("https://t.me/biochemistry_nursing/136")
+ForwardMessage("https://t.me/biochemistry_nursing/138")
+ForwardMessage("https://t.me/biochemistry_nursing/140")
   
 }
 
@@ -75,7 +84,7 @@ Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+exit+line+exit_only , m
 
 if(temporary === "Old") {
   
-  ForwardMessage("https://t.me/kufa2023/800");
+  ForwardMessage("https://t.me/kufa2023/800")
   
 }
 

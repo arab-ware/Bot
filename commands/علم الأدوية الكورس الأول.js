@@ -100,4 +100,10 @@ if(temporary === "lectureYA") {
     ForwardMessage("https://t.me/abcdefehduauqu/2807" , user.telegramid)
     
   }
-
+  
+  
+if(temporary === "students") {
+    
+    Bot.sendMessage("قريبا ، حاليا فقط مادة الأحياء المجهرية النظرية و مادة التقييم")
+    
+  }

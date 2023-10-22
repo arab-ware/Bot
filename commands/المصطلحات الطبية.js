@@ -75,6 +75,26 @@ Bot.sendMessage("https://t.me/kufa2023/731")
 
 Bot.sendKeyboard(medical+x+cardiovascular+x+blood+x+respiratory+x+urinary+x+allSubject+x+abbreviations+x+close+x+close_only,msg)
 
+} else if(temp === "Original") {
+
+ForwardMessage("https://t.me/biochemistry_nursing/1254")
+ForwardMessage("https://t.me/biochemistry_nursing/1255")
+ForwardMessage("https://t.me/biochemistry_nursing/1256")
+ForwardMessage("https://t.me/biochemistry_nursing/1346")
+ForwardMessage("https://t.me/biochemistry_nursing/1507")
+ForwardMessage("https://t.me/biochemistry_nursing/1626")
+ForwardMessage("https://t.me/biochemistry_nursing/1629")
+
+} else if(temp === "Translation") {
+
+ForwardMessage("https://t.me/biochemistry_nursing/1264")
+ForwardMessage("https://t.me/biochemistry_nursing/1347")
+ForwardMessage("https://t.me/biochemistry_nursing/1508")
+ForwardMessage("https://t.me/biochemistry_nursing/1627")
+ForwardMessage("https://t.me/biochemistry_nursing/1630")
+ForwardMessage("https://t.me/biochemistry_nursing/1351")
+ForwardMessage("https://t.me/kufa_nursing_translation/85")
+
 } else {
 
 Bot.sendKeyboard(medical+x+cardiovascular+x+blood+x+respiratory+x+urinary+x+dictionary+x+homework+x+close+x+close_only,msg)

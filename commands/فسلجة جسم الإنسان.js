@@ -73,6 +73,24 @@ ForwardMessage("https://t.me/kufa2023/790")
 
 Bot.sendKeyboard(blood+x+hormones+x+heart+x+respiratory+x+digestive+x+close+x+close_only,msg)
 
+} else if(temp === "Original") {
+
+ForwardMessage("https://t.me/anatomy_kufa/1447")
+ForwardMessage("https://t.me/anatomy_kufa/1639")
+ForwardMessage("https://t.me/anatomy_kufa/1750")
+ForwardMessage("https://t.me/anatomy_kufa/1749")
+ForwardMessage("https://t.me/anatomy_kufa/1779")
+ForwardMessage("https://t.me/anatomy_kufa/1846")
+
+} else if(temp === "Translation") {
+
+ForwardMessage("https://t.me/anatomy_kufa/1448")
+ForwardMessage("https://t.me/anatomy_kufa/1640")
+ForwardMessage("https://t.me/anatomy_kufa/1752")
+ForwardMessage("https://t.me/anatomy_kufa/1751")
+ForwardMessage("https://t.me/anatomy_kufa/1780")
+ForwardMessage("https://t.me/anatomy_kufa/1847")
+
 } else {
 
 Bot.sendKeyboard(nervous+x+blood+x+hormones+x+heart+x+respiratory+x+digestive+x+close+x+close_only,msg)

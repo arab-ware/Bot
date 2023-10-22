@@ -114,6 +114,6 @@ const h = "كيف استخدم البوت ؟"
 const i = "معلومات مفيدة للطلبة الجامعيين"
 const j = "شنو اخذنا لحد الان؟"
 
-Bot.sendKeyboard(a+"\n"+d+"\n"+b+"\n"+g+"\n" + j + "\n" + f + "\n" + i + "\n" + h + "\n" + c,msg)
+Bot.sendKeyboard(a+"\n"+b+"\n" + j + "\n" + f + "\n" + i + "\n" + h + "\n" + c,msg)
 
 }

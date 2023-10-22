@@ -123,4 +123,10 @@ ForwardMessage("https://t.me/abcdefehduauqu/3009" , user.telegramid)
     
     
   }
+  
+  if(temporary === "students") {
+    
+    Bot.sendMessage("قريبا ، حاليا فقط مادة الأحياء المجهرية النظرية و مادة التقييم")
+    
+  }
 

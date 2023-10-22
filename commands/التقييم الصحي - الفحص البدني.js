@@ -81,6 +81,8 @@ if (temporary === "lectureYA") {
   ForwardMessage("https://t.me/abcdefehduauqu/2956", user.telegramid)
   
   ForwardMessage("https://t.me/abcdefehduauqu/3047", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3077", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3078", user.telegramid)
   
 }
 
@@ -92,8 +94,12 @@ if(temporary === "current") {
     
     ForwardMessage("https://t.me/abcdefehduauqu/2824" , user.telegramid)
     ForwardMessage("https://t.me/abcdefehduauqu/2748" , user.telegramid)
-    
+    ForwardMessage("https://t.me/abcdefehduauqu/2739", user.telegramid)
     
   }
 
-
+if(temporary === "students") {
+    
+    ForwardMessage("https://t.me/abcdefehduauqu/3180", user.telegramid)
+    
+  }
