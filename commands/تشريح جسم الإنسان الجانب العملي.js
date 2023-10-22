@@ -57,13 +57,23 @@ const line = "\n"
 
 if(temporary === "Original") {
   
-  Bot.sendKeyboard(L1 + line + L2 + line + L3 + line + L4 + line + L5 + line + L6 + line + exit + line + exit_only , msg)
+  ForwardMessage("https://t.me/anatomy_kufa/2119")
+ForwardMessage("https://t.me/anatomy_kufa/2121")
+ForwardMessage("https://t.me/anatomy_kufa/2123")
+ForwardMessage("https://t.me/anatomy_kufa/2125")
+ForwardMessage("https://t.me/anatomy_kufa/2127")
+ForwardMessage("https://t.me/anatomy_kufa/2129")
   
 }
 
 if(temporary === "Translation") {
   
-  Bot.sendKeyboard(L1 + line + L2 + line + L3 + line + L4 + line + L5 + line + L6 + line + exit + line + exit_only , msg)
+  ForwardMessage("https://t.me/anatomy_kufa/2120")
+ForwardMessage("https://t.me/anatomy_kufa/2122")
+ForwardMessage("https://t.me/anatomy_kufa/2124")
+ForwardMessage("https://t.me/anatomy_kufa/2126")
+ForwardMessage("https://t.me/anatomy_kufa/2128")
+ForwardMessage("https://t.me/anatomy_kufa/2130")
   
 }
 

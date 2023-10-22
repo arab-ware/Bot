@@ -31,7 +31,7 @@ const close = "إغلاق و رجوع"
 const x = "\n"
 const msg = "قم باختيار ما تريده لو سمحت"
 
-Bot.sendKeyboard(one + x + two + x + three + x + four + x + five + x + six + x + seven + x + eight + x + nine + x + ten + x + eleven + x + close , msg)
+Bot.sendKeyboard(close + x + one + x + two + x + three + x + four + x + five + x + six + x + seven + x + eight + x + nine + x + ten + x + eleven , msg)
 
 
 

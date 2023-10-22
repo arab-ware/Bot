@@ -57,13 +57,33 @@ const line = "\n"
 
 if(temporary === "Original") {
   
-  Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+L6+line+L7+line+L8+line+L9+line+exit+line+exit_only , msg)
+ForwardMessage("https://t.me/nursebasics/2753")
+ForwardMessage("https://t.me/nursebasics/2780")
+ForwardMessage("https://t.me/nursebasics/2783")
+ForwardMessage("https://t.me/nursebasics/2786")
+ForwardMessage("https://t.me/nursebasics/2789")
+ForwardMessage("https://t.me/nursebasics/2792")
+ForwardMessage("https://t.me/nursebasics/2795")
+ForwardMessage("https://t.me/nursebasics/2798")
+ForwardMessage("https://t.me/nursebasics/2801")
+
+
   
 }
 
 if(temporary === "Translation") {
   
-Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+L6+line+L7+line+L8+line+L9+line+exit+line+exit_only , msg)
+  ForwardMessage("https://t.me/nursebasics/2754")
+ForwardMessage("https://t.me/nursebasics/2781")
+ForwardMessage("https://t.me/nursebasics/2784")
+ForwardMessage("https://t.me/nursebasics/2787")
+ForwardMessage("https://t.me/nursebasics/2780")
+ForwardMessage("https://t.me/nursebasics/2793")
+ForwardMessage("https://t.me/nursebasics/2796")
+ForwardMessage("https://t.me/nursebasics/2799")
+ForwardMessage("https://t.me/nursebasics/2802")
+  
+
   
 }
 

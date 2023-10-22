@@ -61,6 +61,7 @@ ForwardMessage("https://t.me/abcdefehduauqu/2837", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2839", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3008", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3051", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3181", user.telegramid)
 Bot.sendMessage("فقط هذه مترجمة حاليا ، باقي الملازم تتوفر في قسم الملازم الأصلية و كذلك في قسم الاختصارات - المرحلة الثانية")
   
 }
@@ -77,11 +78,14 @@ if(temporary === "lectureYA") {
     
     ForwardMessage("https://t.me/abcdefehduauqu/3012" , user.telegramid)
     
+    ForwardMessage("https://t.me/abcdefehduauqu/3183", user.telegramid)
+    
   }
   
 if(temporary === "Old") {
     
     ForwardMessage("https://t.me/abcdefehduauqu/2952" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3075" , user.telegramid)
     
   }
   
@@ -92,5 +96,13 @@ if(temporary === "Old") {
     ForwardMessage("https://t.me/abcdefehduauqu/3008" , user.telegramid)
     ForwardMessage("https://t.me/abcdefehduauqu/3051" , user.telegramid)
     
+ForwardMessage("https://t.me/abcdefehduauqu/3181", user.telegramid)
+    
   }
 
+
+if(temporary === "students") {
+    
+    ForwardMessage("https://t.me/abcdefehduauqu/3133" , user.telegramid)
+    
+  }

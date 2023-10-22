@@ -80,6 +80,30 @@ Bot.sendKeyboard(L1+x+L2+x+L3+x+L4+x+L5+x+L6+x+practical+x+close+x+close_only,ms
 
 Bot.sendKeyboard(L1+x+L2+x+L3+x+L4+x+L5+x+L6+x+L7+x+L8+x+L9+x+close+x+close_only,msg)
 
+} else if (temp === "Original") {
+
+ForwardMessage("https://t.me/nursebasics/2267")
+ForwardMessage("https://t.me/nursebasics/2271")
+ForwardMessage("https://t.me/nursebasics/2396")
+ForwardMessage("https://t.me/nursebasics/2392")
+ForwardMessage("https://t.me/nursebasics/2501")
+ForwardMessage("https://t.me/nursebasics/2504")
+ForwardMessage("https://t.me/nursebasics/2507")
+ForwardMessage("https://t.me/nursebasics/2512")
+ForwardMessage("https://t.me/nursebasics/2514")
+
+} else if(temp === "Translation") {
+
+ForwardMessage("https://t.me/nursebasics/2269")
+ForwardMessage("https://t.me/nursebasics/2272")
+ForwardMessage("https://t.me/nursebasics/2397")
+ForwardMessage("https://t.me/nursebasics/2394")
+ForwardMessage("https://t.me/nursebasics/2502")
+ForwardMessage("https://t.me/nursebasics/2505")
+ForwardMessage("https://t.me/nursebasics/2508")
+ForwardMessage("https://t.me/nursebasics/2513")
+ForwardMessage("https://t.me/nursebasics/2515")
+
 } else {
 
 Bot.sendKeyboard(L1+x+L2+x+L3+x+L4+x+L5+x+L6+x+L7+x+L8+x+L9+x+close+x+close_only,msg)

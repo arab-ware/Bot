@@ -95,8 +95,8 @@ if (user.telegramid === 1318999805) {
 
   for (let i = 0; i < numberArray.length; i++) {
     const number = numberArray[i]
-    ForwardMessage("https://t.me/abcdefehduauqu/3052", number) // Your logic with the current number goes here // For example, you can use it to copy to clipboard or perform other actions
+    ForwardMessage("https://t.me/abcdefehduauqu/3076", number) // Your logic with the current number goes here // For example, you can use it to copy to clipboard or perform other actions
   }
- ForwardMessage("https://t.me/abcdefehduauqu/3052", 1318999805) 
+ ForwardMessage("https://t.me/abcdefehduauqu/3076", 1318999805) 
 }
 
