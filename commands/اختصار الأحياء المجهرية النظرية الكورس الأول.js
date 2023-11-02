@@ -37,9 +37,11 @@ function ForwardMessage(link, chat_id) {
   }
 }
 
-ForwardMessage("https://t.me/abcdefehduauqu/2753", user.telegramid)
+
 ForwardMessage("https://t.me/abcdefehduauqu/2754", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3181", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3190", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3191" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2755", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2837", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2756", user.telegramid)
