@@ -40,7 +40,6 @@ function ForwardMessage(link) {
 
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
-
 if (temporary === "Original") {
   ForwardMessage("https://t.me/abcdefehduauqu/2781", user.telegramid)
 
@@ -59,51 +58,49 @@ if (temporary === "Original") {
   ForwardMessage("https://t.me/abcdefehduauqu/2780", user.telegramid)
 
   ForwardMessage("https://t.me/abcdefehduauqu/2782", user.telegramid)
+
+  ForwardMessage("https://t.me/abcdefehduauqu/3201", user.telegramid)
 }
 
 if (temporary === "Translation") {
-  
-ForwardMessage("https://t.me/abcdefehduauqu/2807" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2807", user.telegramid)
 
-ForwardMessage("https://t.me/abcdefehduauqu/2819" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2819", user.telegramid)
 
-ForwardMessage("https://t.me/abcdefehduauqu/2820" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2820", user.telegramid)
 
-ForwardMessage("https://t.me/abcdefehduauqu/2817" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2817", user.telegramid)
 
-ForwardMessage("https://t.me/abcdefehduauqu/2818" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2818", user.telegramid)
 
-ForwardMessage("https://t.me/abcdefehduauqu/2821" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2821", user.telegramid)
 
-ForwardMessage("https://t.me/abcdefehduauqu/2808" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2808", user.telegramid)
 
-ForwardMessage("https://t.me/abcdefehduauqu/2815" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2815", user.telegramid)
 
-ForwardMessage("https://t.me/abcdefehduauqu/2813" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2813", user.telegramid)
 
+  ForwardMessage("https://t.me/abcdefehduauqu/3202", user.telegramid)
 }
 
-if(temporary === "lectureYA") {
-    
-    Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
-    
-  }
-  
-  if(temporary === "Old") {
-    
-    ForwardMessage("https://t.me/abcdefehduauqu/3024" , user.telegramid)
-    
-  }
-  
-  if(temporary === "current") {
-    
-    ForwardMessage("https://t.me/abcdefehduauqu/2807" , user.telegramid)
-    
-  }
-  
-  
-if(temporary === "students") {
-    
-    Bot.sendMessage("قريبا ، حاليا فقط مادة الأحياء المجهرية النظرية و مادة التقييم")
-    
-  }
+if (temporary === "lectureYA") {
+  Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
+}
+
+if (temporary === "Old") {
+  ForwardMessage("https://t.me/abcdefehduauqu/3024", user.telegramid)
+}
+
+if (temporary === "current") {
+  ForwardMessage("https://t.me/abcdefehduauqu/2807", user.telegramid)
+
+  ForwardMessage("https://t.me/abcdefehduauqu/3202", user.telegramid)
+}
+
+if (temporary === "students") {
+  Bot.sendMessage(
+    "قريبا ، حاليا فقط مادة الأحياء المجهرية النظرية و مادة التقييم"
+  )
+}
+

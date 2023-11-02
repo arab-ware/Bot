@@ -93,6 +93,10 @@ Bot.runCommand("الاختصارات - المرحلة الثانية")
 
 Bot.runCommand("مصادر علمية و ملفات جامعية")
 
+} else if(temporary === "bot_InshaaAllah") {
+
+Bot.runCommand("موازي")
+
 }
   
   

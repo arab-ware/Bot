@@ -96,6 +96,8 @@ if(temporary === "current") {
     ForwardMessage("https://t.me/abcdefehduauqu/2748" , user.telegramid)
     ForwardMessage("https://t.me/abcdefehduauqu/2739", user.telegramid)
     
+ForwardMessage("https://t.me/abcdefehduauqu/2750", user.telegramid)
+    
   }
 
 if(temporary === "students") {

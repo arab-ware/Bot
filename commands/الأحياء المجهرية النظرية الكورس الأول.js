@@ -43,7 +43,7 @@ const temporary = "" + Bot.getProperty("Type" + user.id)
 
 if(temporary === "Original") {
   
-  ForwardMessage("https://t.me/abcdefehduauqu/2753", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3190", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2754", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2755", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2756", user.telegramid)
@@ -62,6 +62,7 @@ ForwardMessage("https://t.me/abcdefehduauqu/2839", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3008", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3051", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3181", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3191", user.telegramid)
 Bot.sendMessage("فقط هذه مترجمة حاليا ، باقي الملازم تتوفر في قسم الملازم الأصلية و كذلك في قسم الاختصارات - المرحلة الثانية")
   
 }
@@ -97,7 +98,9 @@ ForwardMessage("https://t.me/abcdefehduauqu/3075" , user.telegramid)
     ForwardMessage("https://t.me/abcdefehduauqu/3051" , user.telegramid)
     
 ForwardMessage("https://t.me/abcdefehduauqu/3181", user.telegramid)
-    
+
+ForwardMessage("https://t.me/abcdefehduauqu/3191", user.telegramid)
+
   }
 
 
