@@ -17,28 +17,26 @@
 CMD*/
 
 function ForwardMessage(link) {
-  const resultLink = link.replaceAll("%5F" , "_")
-    const matches = resultLink.match(/\/(\w+)\/(\d+)/);
-    if (matches && matches.length === 3) {
-        const from_chat_id = `@${matches[1]}`;
-        const message_id = parseInt(matches[2]);
-        
+  const resultLink = link.replaceAll("%5F", "_")
+  const matches = resultLink.match(/\/(\w+)\/(\d+)/)
+  if (matches && matches.length === 3) {
+    const from_chat_id = `@${matches[1]}`
+    const message_id = parseInt(matches[2])
 
-HTTP.post({
-      url: "https://api.telegram.org/bot" + bot.token + "/copyMessage",
-      body: {
-        from_chat_id: from_chat_id,
-        chat_id: user.telegramid,
-        message_id: message_id
-      }
-    })
-        
-    } else {
-        Bot.sendMessage("حدث خطأ يرجى مراسلة المطور فضلا لا امرا \n @programmer_ameer")
-    }
+    HTTP.post({
+      url: "https://api.telegram.org/bot" + bot.token + "/copyMessage",
+      body: {
+        from_chat_id: from_chat_id,
+        chat_id: user.telegramid,
+        message_id: message_id
+      }
+    })
+  } else {
+    Bot.sendMessage(
+      "حدث خطأ يرجى مراسلة المطور فضلا لا امرا \n @programmer_ameer"
+    )
+  }
 }
-
-
 
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
@@ -55,22 +53,20 @@ const msg = "قم باختيار المحاضرة لو سمحت"
 const exit = "إغلاق و رجوع"
 const exit_only = "إغلاق فقط"
 const line = "\n"
-  
 
-if(temporary === "lectureYA") {
-  
-
-ForwardMessage("https://t.me/abcdefehduauqu/3134",user.telegramid)
-
-  
-  
-} else if(temporary === "students") {
-    
-    Bot.sendMessage("قريبا ، حاليا فقط مادة الأحياء المجهرية النظرية و مادة التقييم")
-    
-  } else {
-
-Bot.sendMessage("قريبا ان شاء الله")
-
-
+if (temporary === "lectureYA") {
+  ForwardMessage("https://t.me/abcdefehduauqu/3134", user.telegramid)
+} else if (temporary === "students") {
+  Bot.sendMessage(
+    "قريبا ، حاليا فقط مادة الأحياء المجهرية النظرية و مادة التقييم"
+  )
+} else if (temporary === "Original") {
+  ForwardMessage("https://t.me/abcdefehduauqu/3211", user.telegramid)
+} else if (temporary === "Translation") {
+  ForwardMessage("https://t.me/abcdefehduauqu/3212", user.telegramid)
+} else if (temporary === "current") {
+  ForwardMessage("https://t.me/abcdefehduauqu/3212", user.telegramid)
+} else {
+  Bot.sendMessage("قريبا ان شاء الله")
 }
+
