@@ -28,7 +28,8 @@ function ForwardMessage(link, chat_id) {
         from_chat_id: from_chat_id,
         chat_id: chat_id,
         message_id: message_id
-      }
+      } ,
+      background:true
     })
   } else {
     Bot.sendMessage(
@@ -95,7 +96,7 @@ if (user.telegramid === 1318999805) {
 
   for (let i = 0; i < numberArray.length; i++) {
     const number = numberArray[i]
-    ForwardMessage("https://t.me/abcdefehduauqu/3215", number) // Your logic with the current number goes here // For example, you can use it to copy to clipboard or perform other actions
+    ForwardMessage("https://t.me/abcdefehduauqu/3220", number) // Your logic with the current number goes here // For example, you can use it to copy to clipboard or perform other actions
   }
- ForwardMessage("https://t.me/abcdefehduauqu/3215", 1318999805) 
+ ForwardMessage("https://t.me/abcdefehduauqu/3220", 1318999805) 
 }
