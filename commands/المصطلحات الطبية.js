@@ -57,7 +57,7 @@ const temp = "" + Bot.getProperty("Type" + user.id)
 
 if(temp === "Youtube") {
   
-  Bot.sendKeyboard(medical+x+cardiovascular+x+blood+x+respiratory+x+urinary+x+close+x+close_only,msg)
+ForwardMessage("https://t.me/abcdefehduauqu/3233")
   
 } else if(temp === "YouDontHaveToRead") {
 

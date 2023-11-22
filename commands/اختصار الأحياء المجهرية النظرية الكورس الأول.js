@@ -56,4 +56,6 @@ ForwardMessage("https://t.me/abcdefehduauqu/2760", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2952" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3206", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3207" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3221", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3222" , user.telegramid)
 

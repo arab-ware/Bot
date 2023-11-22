@@ -74,7 +74,7 @@ Bot.sendMessage(resultDd)
  
  } else if(temp === "Youtube") {
 
-Bot.sendKeyboard(L1+x+L2+x+L3+x+L4+x+L5+x+L6+x+practical+x+close+x+close_only,msg)
+ForwardMessage("https://t.me/abcdefehduauqu/3231")
 
 } else if(temp === "Test Me") {
 

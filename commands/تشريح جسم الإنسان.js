@@ -95,7 +95,7 @@ ForwardMessage("https://t.me/anatomy_kufa/2115")
 
 if(temporary === "Youtube") {
   
-Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+L7+line+exit+line+exit_only , msg)
+ForwardMessage("https://t.me/abcdefehduauqu/3228")
   
 }
 
