@@ -100,6 +100,7 @@ if(temporary === "Old") {
 }
 
 if(temporary === "Youtube") {
-  Bot.sendKeyboard(L1+line+L2+line+L5+line+L6+line+L8+line+L9+line+exit+line+exit_only , msg)
+
+ForwardMessage("https://t.me/abcdefehduauqu/3227")
   
 }

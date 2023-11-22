@@ -91,6 +91,10 @@ ForwardMessage("https://t.me/anatomy_kufa/1751")
 ForwardMessage("https://t.me/anatomy_kufa/1780")
 ForwardMessage("https://t.me/anatomy_kufa/1847")
 
+} else if(temp === "Youtube") {
+
+ForwardMessage("https://t.me/abcdefehduauqu/3232")
+
 } else {
 
 Bot.sendKeyboard(nervous+x+blood+x+hormones+x+heart+x+respiratory+x+digestive+x+close+x+close_only,msg)

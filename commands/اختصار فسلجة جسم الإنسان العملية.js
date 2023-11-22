@@ -39,6 +39,6 @@ HTTP.post({
 
 ForwardMessage("https://t.me/anatomy_kufa/1849",user.telegramid)
 ForwardMessage("https://t.me/anatomy_kufa/1906",user.telegramid)
-Bot.sendMessage("https://t.me/anatomy_kufa/1905")
-Bot.sendMessage("https://t.me/anatomy_kufa/1923")
-Bot.sendMessage("https://t.me/anatomy_kufa/1927")
+Bot.sendMessage("https://t.me/anatomy%5Fkufa/1905")
+Bot.sendMessage("https://t.me/anatomy%5Fkufa/1923")
+Bot.sendMessage("https://t.me/anatomy%5Fkufa/1927")
