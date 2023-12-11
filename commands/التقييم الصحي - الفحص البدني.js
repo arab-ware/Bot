@@ -103,6 +103,8 @@ ForwardMessage("https://t.me/abcdefehduauqu/2826", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2827", user.telegramid)
 
 ForwardMessage("https://t.me/abcdefehduauqu/2743", user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/2752", user.telegramid)
     
   }
 
