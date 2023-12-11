@@ -95,6 +95,7 @@ if (temporary === "lectureYA") {
   ForwardMessage("https://t.me/abcdefehduauqu/3239", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3237", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3238", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3248", user.telegramid)
 }
 
 if (temporary === "Old") {

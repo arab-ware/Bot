@@ -19,7 +19,7 @@ CMD*/
 const org = "الملازم الأصلية"
 const tnl = "الملازم المترجمة"
 const smr = "اسئلة عمل طلبة"
-const question = "المصادر الرسمية للمواد التقويمية"
+const question = "المصادر الرسمية لتمريض البالغين"
 const youtube = "تسجيلات صوتية و روابط يوتيوب"
 const oldQ = "اسئلة دفعات سابقة"
 const close = "إغلاق و رجوع"
