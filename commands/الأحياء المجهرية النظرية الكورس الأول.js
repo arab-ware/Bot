@@ -41,17 +41,17 @@ function ForwardMessage(link) {
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
 if (temporary === "Original") {
-  ForwardMessage("https://t.me/abcdefehduauqu/3190", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2754", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2755", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2756", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2757", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2758", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2759", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3050", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2760", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/3206", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2754", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3190", user.telegramid)
+  
+ForwardMessage("https://t.me/abcdefehduauqu/3206", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3221", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2757", user.telegramid)
+
 }
 
 if (temporary === "Translation") {
@@ -59,15 +59,14 @@ if (temporary === "Translation") {
   ForwardMessage("https://t.me/abcdefehduauqu/2839", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3008", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3051", user.telegramid)
-  
-ForwardMessage("https://t.me/abcdefehduauqu/3249", user.telegramid)
+
   ForwardMessage("https://t.me/abcdefehduauqu/3181", user.telegramid)
+
   ForwardMessage("https://t.me/abcdefehduauqu/3191", user.telegramid)
+
   ForwardMessage("https://t.me/abcdefehduauqu/3207", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3222", user.telegramid)
-  Bot.sendMessage(
-    "فقط هذه مترجمة حاليا ، باقي الملازم تتوفر في قسم الملازم الأصلية و كذلك في قسم الاختصارات - المرحلة الثانية"
-  )
+  ForwardMessage("https://t.me/abcdefehduauqu/3249", user.telegramid)
 }
 
 if (temporary === "lectureYA") {

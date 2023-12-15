@@ -45,35 +45,35 @@ const temporary = "" + Bot.getProperty("Type" + user.id)
 if (temporary === "Original") {
   ForwardMessage("https://t.me/abcdefehduauqu/2740", user.telegramid)
 
-  ForwardMessage("https://t.me/abcdefehduauqu/2738", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2747", user.telegramid)
 
-  ForwardMessage("https://t.me/abcdefehduauqu/2741", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2742", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2738", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2749", user.telegramid)
 
   ForwardMessage("https://t.me/abcdefehduauqu/2744", user.telegramid)
 
   ForwardMessage("https://t.me/abcdefehduauqu/2745", user.telegramid)
 
-  ForwardMessage("https://t.me/abcdefehduauqu/2747", user.telegramid)
-
-  ForwardMessage("https://t.me/abcdefehduauqu/2749", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2742", user.telegramid)
 
   ForwardMessage("https://t.me/abcdefehduauqu/2751", user.telegramid)
+  
 }
 
 if (temporary === "Translation") {
-  ForwardMessage("https://t.me/abcdefehduauqu/2824", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2739", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2743", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2826", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2827", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2748", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2750", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2752", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2824" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/2748" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/2739", user.telegramid)
+    
+ForwardMessage("https://t.me/abcdefehduauqu/2750", user.telegramid)
 
-  Bot.sendMessage(
-    "محاضرة القلب غير متوفرة ، نترجمها لاحقا ان شاء الله ، تجدون النسخة الأصلية فقط حاليا في البوت"
-  )
+ForwardMessage("https://t.me/abcdefehduauqu/2826", user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/2827", user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/2743", user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/2752", user.telegramid)
 }
 
 if (temporary === "lectureYA") {

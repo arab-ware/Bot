@@ -37,24 +37,12 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/abcdefehduauqu/2781" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2807" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2774" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2819" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2775" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2820" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2776" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2817" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2778" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2821" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2779" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2808" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2780" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2815" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2782" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2813" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3201" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3202" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3024" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3253" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3254" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2807", user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/3202", user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/2808", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2820", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/2819", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3254", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3024", user.telegramid)
