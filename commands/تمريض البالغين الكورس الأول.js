@@ -55,31 +55,28 @@ const exit_only = "إغلاق فقط"
 const line = "\n"
 
 if (temporary === "Original") {
+  ForwardMessage("https://t.me/abcdefehduauqu/2709", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3005", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2707", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2701", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3192", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2703", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2705", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2707", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2709", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2711", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2713", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2705", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2715", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2717", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/3005", user.telegramid)
+
 }
 
 if (temporary === "Translation") {
+
+ForwardMessage("https://t.me/abcdefehduauqu/2710", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3006", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2708", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2702", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3193", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2704", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2706", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2708", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2710", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2712", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2714", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/2706", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2716", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/2737", user.telegramid)
-  ForwardMessage("https://t.me/abcdefehduauqu/3006", user.telegramid)
+
 }
 
 if (temporary === "lectureYA") {
@@ -107,7 +104,6 @@ if (temporary === "current") {
   ForwardMessage("https://t.me/abcdefehduauqu/3006", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2708", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2702", user.telegramid)
-
   ForwardMessage("https://t.me/abcdefehduauqu/2706", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3193", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/2712", user.telegramid)
