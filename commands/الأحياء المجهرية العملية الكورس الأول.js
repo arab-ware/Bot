@@ -55,6 +55,7 @@ if (temporary === "Original") {
   ForwardMessage("https://t.me/abcdefehduauqu/2783", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3216", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3234", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3266", user.telegramid)
   
 }
 
@@ -79,6 +80,7 @@ ForwardMessage("https://t.me/abcdefehduauqu/3256", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3022", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3217", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3235", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3267", user.telegramid)
 }
 
 if (temporary === "lectureYA") {
@@ -109,6 +111,7 @@ ForwardMessage("https://t.me/abcdefehduauqu/3256", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3022", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3217", user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3235", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3267", user.telegramid)
 }
 
 if (temporary === "students") {
@@ -117,3 +120,8 @@ if (temporary === "students") {
   )
 }
 
+if(temporary === "Short") {
+  
+  Bot.sendMessage("قريبا ان شاء الله عز و جل")
+  
+}

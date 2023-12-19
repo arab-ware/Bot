@@ -1,5 +1,5 @@
 /*CMD
-  command: اختصار علم الأدوية الكورس الأول
+  command: الجانب العملي من التقييم
   help: 
   need_reply: false
   auto_retry_time: 
@@ -37,13 +37,5 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/abcdefehduauqu/2807", user.telegramid)
-
-ForwardMessage("https://t.me/abcdefehduauqu/3202", user.telegramid)
-
-ForwardMessage("https://t.me/abcdefehduauqu/2808", user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2820", user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2819", user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3254", user.telegramid)
-ForwardMessage("https://t.me/kufa2023/854", user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3024", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3017",user.telegramid)
+ForwardMessage("https://t.me/kufa_nurse_college/949",user.telegramid)

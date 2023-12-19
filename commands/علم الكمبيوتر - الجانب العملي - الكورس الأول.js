@@ -67,6 +67,6 @@ if (temporary === "lectureYA") {
 } else if (temporary === "current") {
   ForwardMessage("https://t.me/abcdefehduauqu/3212", user.telegramid)
 } else {
-  Bot.sendMessage("قريبا ان شاء الله")
+  Bot.sendMessage("قريبا ان شاء الله عز و جل")
 }
 

@@ -92,3 +92,8 @@ if (temporary === "students") {
   )
 }
 
+if(temporary === "Short") {
+  
+  ForwardMessage("https://t.me/kufa2023/854", user.telegramid)
+  
+}
