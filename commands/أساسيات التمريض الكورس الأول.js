@@ -77,7 +77,7 @@ if(temporary === "Translation") {
 ForwardMessage("https://t.me/nursebasics/2781")
 ForwardMessage("https://t.me/nursebasics/2784")
 ForwardMessage("https://t.me/nursebasics/2787")
-ForwardMessage("https://t.me/nursebasics/2780")
+ForwardMessage("https://t.me/nursebasics/2790")
 ForwardMessage("https://t.me/nursebasics/2793")
 ForwardMessage("https://t.me/nursebasics/2796")
 ForwardMessage("https://t.me/nursebasics/2799")

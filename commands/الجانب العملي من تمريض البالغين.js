@@ -1,5 +1,5 @@
 /*CMD
-  command: اختصار علم الأدوية الكورس الأول
+  command: الجانب العملي من تمريض البالغين
   help: 
   need_reply: false
   auto_retry_time: 
@@ -37,13 +37,12 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/abcdefehduauqu/2807", user.telegramid)
-
-ForwardMessage("https://t.me/abcdefehduauqu/3202", user.telegramid)
-
-ForwardMessage("https://t.me/abcdefehduauqu/2808", user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2820", user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2819", user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3254", user.telegramid)
-ForwardMessage("https://t.me/kufa2023/854", user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3024", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3014",user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3270",user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3015",user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3269",user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3271",user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3272",user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3273",user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3274",user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3275",user.telegramid)
