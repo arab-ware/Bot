@@ -38,4 +38,5 @@ HTTP.post({
 }
 
 ForwardMessage("https://t.me/abcdefehduauqu/3017",user.telegramid)
+ForwardMessage("https://t.me/kufa2023/923", user.telegramid)
 ForwardMessage("https://t.me/kufa_nurse_college/949",user.telegramid)
