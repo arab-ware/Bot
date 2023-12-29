@@ -122,6 +122,6 @@ if (temporary === "students") {
 
 if(temporary === "Short") {
   
-  Bot.sendMessage("قريبا ان شاء الله عز و جل")
+  ForwardMessage("https://t.me/kufa2023/914", user.telegramid)
   
 }
