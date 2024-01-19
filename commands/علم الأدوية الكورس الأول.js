@@ -73,6 +73,7 @@ if (temporary === "lectureYA") {
 
 if (temporary === "Old") {
   ForwardMessage("https://t.me/abcdefehduauqu/3024", user.telegramid)
+  ForwardMessage("https://t.me/kufa2023/924", user.telegramid)
 }
 
 if (temporary === "current") {
@@ -94,6 +95,6 @@ if (temporary === "students") {
 
 if(temporary === "Short") {
   
-  ForwardMessage("https://t.me/kufa2023/854", user.telegramid)
+  ForwardMessage("https://t.me/kufa2023/926", user.telegramid)
   
 }

@@ -107,11 +107,11 @@ if (temporary === "current") {
 }
 
 if (temporary === "students") {
-  ForwardMessage("https://t.me/abcdefehduauqu/3133", user.telegramid)
+  ForwardMessage("https://t.me/ph_kufa_nurse/428", user.telegramid)
 }
 
 if(temporary === "Short") {
   
-  Bot.sendMessage("قريبا ان شاء الله عز و جل")
+ForwardMessage("https://t.me/kufa2023/960", user.telegramid)
   
 }

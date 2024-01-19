@@ -56,13 +56,15 @@ const line = "\n"
 if(temporary === "Original") {
   
   ForwardMessage("https://t.me/kufa2023/96")
-  
+  ForwardMessage("https://t.me/abcdefehduauqu/3287")
+  ForwardMessage("https://t.me/kufa2023/954")
 }
 
 if(temporary === "Translation") {
   
   ForwardMessage("https://t.me/kufa%5Fnursing%5Ftranslation/165")
-  
+  ForwardMessage("https://t.me/abcdefehduauqu/3289")
+  ForwardMessage("https://t.me/kufa2023/955")
 }
 
 if(temporary === "Old") {

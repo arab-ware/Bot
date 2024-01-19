@@ -38,9 +38,12 @@ HTTP.post({
 }
 
 ForwardMessage("https://t.me/abcdefehduauqu/2797" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3293" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2798" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3294" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2799" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2800" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2801" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2802" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2803" , user.telegramid)
+Bot.sendMessage("سنترجم باقي الملفات في وقت لاحق ان شاء الله تعالى .")

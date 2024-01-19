@@ -66,6 +66,7 @@ ForwardMessage("https://t.me/nursebasics/2792")
 ForwardMessage("https://t.me/nursebasics/2795")
 ForwardMessage("https://t.me/nursebasics/2798")
 ForwardMessage("https://t.me/nursebasics/2801")
+ForwardMessage("https://t.me/kufa2023/984")
 
 
   
@@ -82,6 +83,7 @@ ForwardMessage("https://t.me/nursebasics/2793")
 ForwardMessage("https://t.me/nursebasics/2796")
 ForwardMessage("https://t.me/nursebasics/2799")
 ForwardMessage("https://t.me/nursebasics/2802")
+ForwardMessage("https://t.me/kufa2023/985")
   
 
   

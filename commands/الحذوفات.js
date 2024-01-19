@@ -53,6 +53,17 @@ Bot.setProperty("Type"+user.id,"YouDontHaveToRead","string")
 
 const hga = "" + Bot.getProperty("course" + user.id)
 
+if (
+  Bot.getProperty("course" + user.id) == null ||
+  Bot.getProperty("course" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 if(hga === "الكورس الأول") {
   
   ForwardMessage("https://t.me/kufa2023/830")
