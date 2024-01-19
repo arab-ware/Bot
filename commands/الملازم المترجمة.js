@@ -39,6 +39,17 @@ Bot.setProperty("Type" + user.id , "Translation" , "string")
 
 const hga = "" + Bot.getProperty("course" + user.id)
 
+if (
+  Bot.getProperty("course" + user.id) == null ||
+  Bot.getProperty("course" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 if(hga === "الكورس الأول") {
   
   Bot.sendKeyboard(an1 + x + mbt1 + x + mbp1 + x + ha_pe + x + pc1 + x + cpc1 + x + close + x + stageOne + x + returnToCourse , msg)

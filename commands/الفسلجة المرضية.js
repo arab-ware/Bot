@@ -55,7 +55,10 @@ ForwardMessage("https://t.me/abcdefehduauqu/2803" , user.telegramid)
 
 if(temporary === "Translation") {
   
-Bot.sendMessage("غير متوفرة حاليا ، قريبا ان شاء الله")
+  ForwardMessage("https://t.me/abcdefehduauqu/3293" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3294" , user.telegramid)
+  
+Bot.sendMessage("باقي المحاضرات غير متوفرة حاليا ، قريبا ان شاء الله")
   
 }
 

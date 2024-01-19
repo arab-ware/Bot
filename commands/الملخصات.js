@@ -44,6 +44,17 @@ Bot.setProperty("command" + user.id , a , "string")
 
 const hga = "" + Bot.getProperty("course" + user.id)
 
+if (
+  Bot.getProperty("course" + user.id) == null ||
+  Bot.getProperty("course" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 if(hga === "الكورس الأول") {
   
   Bot.sendKeyboard(anatomy + x + biochemistry + x + lab_biochemistry + x + english + x + practical_nurse_basic + x + practical_anatomy + x + x + close + x + stageOne + x + returnToCourse , msg)

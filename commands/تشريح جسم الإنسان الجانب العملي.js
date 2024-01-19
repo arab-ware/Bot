@@ -63,6 +63,7 @@ ForwardMessage("https://t.me/anatomy_kufa/2123")
 ForwardMessage("https://t.me/anatomy_kufa/2125")
 ForwardMessage("https://t.me/anatomy_kufa/2127")
 ForwardMessage("https://t.me/anatomy_kufa/2129")
+ForwardMessage("https://t.me/kufa2023/929")
   
 }
 
@@ -74,6 +75,7 @@ ForwardMessage("https://t.me/anatomy_kufa/2124")
 ForwardMessage("https://t.me/anatomy_kufa/2126")
 ForwardMessage("https://t.me/anatomy_kufa/2128")
 ForwardMessage("https://t.me/anatomy_kufa/2130")
+ForwardMessage("https://t.me/kufa2023/930")
   
 }
 

@@ -101,6 +101,10 @@ if (temporary === "lectureYA") {
 
 if (temporary === "Old") {
   ForwardMessage("https://t.me/abcdefehduauqu/3004", user.telegramid)
+  
+  
+ForwardMessage("https://t.me/kufa2023/950", user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3290" , user.telegramid)
   ForwardMessage("https://t.me/abcdefehduauqu/3268", user.telegramid)
 }
 
@@ -118,6 +122,6 @@ if (temporary === "current") {
 }
 
 if (temporary === "students") {
-  ForwardMessage("https://t.me/abcdefehduauqu/3208", user.telegramid)
+  ForwardMessage("https://t.me/ph_kufa_nurse/543", user.telegramid)
 }
 
