@@ -37,7 +37,6 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/abcdefehduauqu/3014",user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3015",user.telegramid)
-Bot.sendMessage("مادة الأحياء المجهرية لاحقا")
+ForwardMessage("https://t.me/kufa2023/1015",user.telegramid)
+Bot.sendMessage("مادة الأحياء المجهرية لاحقا ان شاء الله تعالى")
 

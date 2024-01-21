@@ -41,6 +41,17 @@ HTTP.post({
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
 
+if (
+  Bot.getProperty("Type" + user.id) == null ||
+  Bot.getProperty("Type" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 if(temporary === "Original") {
   
   ForwardMessage("https://t.me/abcdefehduauqu/2797" , user.telegramid)
@@ -57,8 +68,11 @@ if(temporary === "Translation") {
   
   ForwardMessage("https://t.me/abcdefehduauqu/3293" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3294" , user.telegramid)
-  
-Bot.sendMessage("باقي المحاضرات غير متوفرة حاليا ، قريبا ان شاء الله")
+ForwardMessage("https://t.me/abcdefehduauqu/3301" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3302" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3303" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3304" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3305" , user.telegramid)
   
 }
 

@@ -40,6 +40,17 @@ function ForwardMessage(link) {
 
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
+if (
+  Bot.getProperty("Type" + user.id) == null ||
+  Bot.getProperty("Type" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 const L1 = "Digestive System - Adult Nursing"
 const L2 = "Blood Disorders - Adult Nursing"
 const L3 = "Respiratory System - Adult Nursing"

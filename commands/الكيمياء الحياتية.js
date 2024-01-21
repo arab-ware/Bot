@@ -41,6 +41,17 @@ HTTP.post({
 
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
+if (
+  Bot.getProperty("Type" + user.id) == null ||
+  Bot.getProperty("Type" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 const L1 = "Introduction And Carbohydrates"
 const L2 = "Carbohydrates Metabolism"
 const L3 = "Metabolic Disorders"
@@ -78,7 +89,7 @@ ForwardMessage("https://t.me/biochemistry_nursing/140")
 
 if(temporary === "Test Me") {
   
-Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+exit+line+exit_only , msg)
+ForwardMessage("https://t.me/abcdefehduauqu/3297")
   
 }
 

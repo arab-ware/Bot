@@ -41,6 +41,17 @@ HTTP.post({
 
 const temp = "" + Bot.getProperty("Type"+user.id)
 
+if (
+  Bot.getProperty("Type" + user.id) == null ||
+  Bot.getProperty("Type" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 const practical = "الجانب العملي من أساسيات التمريض"
 const L1 = "Rest And Sleep"
 const L2 = "Nutrition"
@@ -78,7 +89,7 @@ ForwardMessage("https://t.me/abcdefehduauqu/3231")
 
 } else if(temp === "Test Me") {
 
-Bot.sendKeyboard(L1+x+L2+x+L3+x+L4+x+L5+x+L6+x+L7+x+L8+x+L9+x+close+x+close_only,msg)
+ForwardMessage("https://t.me/abcdefehduauqu/3298")
 
 } else if (temp === "Original") {
 
