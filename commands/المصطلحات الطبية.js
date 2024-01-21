@@ -55,6 +55,17 @@ const msg = "قم باختيار المحاضرة لو سمحت"
 
 const temp = "" + Bot.getProperty("Type" + user.id)
 
+if (
+  Bot.getProperty("Type" + user.id) == null ||
+  Bot.getProperty("Type" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 if(temp === "Youtube") {
   
 ForwardMessage("https://t.me/abcdefehduauqu/3233")
@@ -69,7 +80,7 @@ Bot.sendMessage("https://t.me/kufa2023/731")
   
 } else if(temp === "Test Me") {
   
-  Bot.sendKeyboard(medical+x+cardiovascular+x+blood+x+respiratory+x+urinary+x+close+x+close_only,msg)
+  ForwardMessage("https://t.me/abcdefehduauqu/3299")
   
 } else if(temp === "Short") {
 

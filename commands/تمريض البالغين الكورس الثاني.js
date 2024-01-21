@@ -40,6 +40,17 @@ HTTP.post({
 
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
+if (
+  Bot.getProperty("Type" + user.id) == null ||
+  Bot.getProperty("Type" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 if(temporary === "Original") {
   
   ForwardMessage("https://t.me/abcdefehduauqu/2718", user.telegramid)

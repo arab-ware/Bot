@@ -41,6 +41,17 @@ HTTP.post({
 
 const temp = "" + Bot.getProperty("Type" + user.id)
 
+if (
+  Bot.getProperty("Type" + user.id) == null ||
+  Bot.getProperty("Type" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 const nervous = "Nervous System"
 const blood = "Blood"
 const hormones = "Endocrine Gland Hormones"
@@ -94,6 +105,10 @@ ForwardMessage("https://t.me/anatomy_kufa/1847")
 } else if(temp === "Youtube") {
 
 ForwardMessage("https://t.me/abcdefehduauqu/3232")
+
+} else if(temp === "Test Me") {
+
+ForwardMessage("https://t.me/abcdefehduauqu/3300")
 
 } else {
 

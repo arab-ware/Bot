@@ -40,6 +40,17 @@ HTTP.post({
 
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
+if (
+  Bot.getProperty("Type" + user.id) == null ||
+  Bot.getProperty("Type" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 const L1 = "Introduction"
 const L2 = "Nervous System C1"
 const L3 = "Cardiovascular System C1"
@@ -81,7 +92,7 @@ ForwardMessage("https://t.me/anatomy_kufa/2112")
 
 if(temporary === "Test Me") {
   
-Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+L6+line+L7+line+exit+line+exit_only , msg)
+ForwardMessage("https://t.me/abcdefehduauqu/3296")
   
 }
 

@@ -41,6 +41,17 @@ HTTP.post({
 
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
+if (
+  Bot.getProperty("Type" + user.id) == null ||
+  Bot.getProperty("Type" + user.id) == ""
+) {
+  Bot.sendMessage(
+    "هنالك مشكلة سنقوم باعادة تشغيل البوت لك ، ان استمرت يرجى التواصل معنا و نقدر مجهودكم مقدما . "
+  )
+  Bot.runCommand("/start")
+  return
+}
+
 const L1 = "Holistic Care"
 const L2 = "Asepsis and infection control"
 const L3 = "Admission"
@@ -91,7 +102,7 @@ ForwardMessage("https://t.me/kufa2023/985")
 
 if(temporary === "Test Me") {
   
-Bot.sendKeyboard(L1+line+L2+line+L3+line+L4+line+L5+line+L6+line+L7+line+L8+line+L9+line+exit+line+exit_only , msg)
+ForwardMessage("https://t.me/abcdefehduauqu/3295")
   
 }
 
