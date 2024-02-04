@@ -71,13 +71,17 @@ ForwardMessage("https://t.me/abcdefehduauqu/2773" , user.telegramid)
 
 if(temporary === "Translation") {
   
-Bot.sendMessage("غير متوفرة حاليا ، قريبا ان شاء الله")
+ForwardMessage("https://t.me/abcdefehduauqu/3325" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3326" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3324" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3330" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3327" , user.telegramid)
   
 }
 
 if(temporary === "lectureYA") {
     
-    Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
+ForwardMessage("https://t.me/abcdefehduauqu/3329" , user.telegramid)
     
   }
   

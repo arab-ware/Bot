@@ -37,8 +37,7 @@ HTTP.post({
     }
 }
 
-ForwardMessage("https://t.me/abcdefehduauqu/3306" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3307" , user.telegramid)
+
 ForwardMessage("https://t.me/abcdefehduauqu/3308" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3309" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3310" , user.telegramid)

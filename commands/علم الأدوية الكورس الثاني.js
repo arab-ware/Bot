@@ -54,7 +54,7 @@ if (
 
 if(temporary === "Original") {
   
-  ForwardMessage("https://t.me/abcdefehduauqu/3306" , user.telegramid)
+  
 ForwardMessage("https://t.me/abcdefehduauqu/3308" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3310" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3312" , user.telegramid)
@@ -69,7 +69,7 @@ ForwardMessage("https://t.me/abcdefehduauqu/3323" , user.telegramid)
 if(temporary === "Translation") {
   
 
-ForwardMessage("https://t.me/abcdefehduauqu/3307" , user.telegramid)
+
 ForwardMessage("https://t.me/abcdefehduauqu/3309" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3311" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3313" , user.telegramid)
