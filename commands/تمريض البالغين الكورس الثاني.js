@@ -84,7 +84,7 @@ Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله
 
 if(temporary === "lectureYA") {
     
-    Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
+    ForwardMessage("https://t.me/abcdefehduauqu/3332" , user.telegramid)
     
   }
   
