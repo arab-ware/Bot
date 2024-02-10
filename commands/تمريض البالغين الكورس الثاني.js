@@ -78,7 +78,8 @@ ForwardMessage("https://t.me/abcdefehduauqu/2736", user.telegramid)
 
 if(temporary === "Translation") {
   
-Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
+ForwardMessage("https://t.me/abcdefehduauqu/3339" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3340" , user.telegramid)
   
 }
 

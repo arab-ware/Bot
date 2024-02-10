@@ -84,12 +84,17 @@ if(temporary === "lectureYA") {
     
 ForwardMessage("https://t.me/abcdefehduauqu/3329" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3333" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3336" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3337" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3338" , user.telegramid)
     
   }
   
   if(temporary === "Old") {
     
-    Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
+ ForwardMessage("https://t.me/kufa2023/1022" , user.telegramid)
+ ForwardMessage("https://t.me/kufa2023/1027" , user.telegramid)
+ ForwardMessage("https://t.me/kufa2023/1029" , user.telegramid)
     
   }
 
