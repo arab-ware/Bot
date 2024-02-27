@@ -24,9 +24,10 @@ const youtube = "تسجيلات صوتية و روابط يوتيوب"
 const oldQ = "اسئلة دفعات سابقة"
 const close = "إغلاق و رجوع"
 const close2 = "المرحلة الثانية"
+const shortFiles = "ملخصات المرحلة الثانية"
 const drs = "الحذوفات"
 const msg = "قم باختيار ما تريده لو سمحت"
 const x = "\n"
 Bot.setProperty("command" + user.id , "كورس ثاني","string")
 Bot.setProperty("course" + user.id , "الكورس الثاني" , "string")
-Bot.sendKeyboard(org + x + tnl + x + smr + x + oldQ + x + question + x + youtube + x + close + x + close2 , msg)
+Bot.sendKeyboard(org + x + tnl + x + smr + x + oldQ + x + question + x + shortFiles + x + youtube + x + close + x + close2 , msg)

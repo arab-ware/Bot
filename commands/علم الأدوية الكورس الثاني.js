@@ -90,7 +90,13 @@ if(temporary === "lectureYA") {
   
   if(temporary === "Old") {
     
-    Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
+    ForwardMessage("https://t.me/kufa2023/1059", user.telegramid)
     
   }
+  
+  if(temporary === "Short") {
+  
+  ForwardMessage("https://t.me/kufa2023/1058", user.telegramid)
+
+}
 

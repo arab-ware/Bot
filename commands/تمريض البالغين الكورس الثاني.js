@@ -54,6 +54,7 @@ if (
 if(temporary === "Original") {
   
   ForwardMessage("https://t.me/abcdefehduauqu/2718", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3365", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2719", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2720", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2721", user.telegramid)
@@ -78,14 +79,33 @@ ForwardMessage("https://t.me/abcdefehduauqu/2736", user.telegramid)
 
 if(temporary === "Translation") {
   
+ForwardMessage("https://t.me/abcdefehduauqu/3364" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3366" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3339" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3340" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3361" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3362" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3363" , user.telegramid)
   
 }
 
 if(temporary === "lectureYA") {
     
-    ForwardMessage("https://t.me/abcdefehduauqu/3332" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3348" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3349" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3350" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3351" , user.telegramid)
+    ForwardMessage("https://t.me/abcdefehduauqu/3352" , user.telegramid)
+    
+ForwardMessage("https://t.me/abcdefehduauqu/3332" , user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/3357" , user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/3360" , user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/3373" , user.telegramid)
+
+ForwardMessage("https://t.me/abcdefehduauqu/3369" , user.telegramid)
     
   }
   
@@ -94,4 +114,10 @@ if(temporary === "lectureYA") {
     Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
     
   }
+  
+  
+  if(temporary === "Short") {
+  
+  Bot.sendMessage("قريبا ان شاء الله تعالى")
 
+}

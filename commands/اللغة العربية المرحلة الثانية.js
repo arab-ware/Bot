@@ -1,5 +1,5 @@
 /*CMD
-  command: الفسلجة المرضية
+  command: اللغة العربية المرحلة الثانية
   help: 
   need_reply: false
   auto_retry_time: 
@@ -40,7 +40,6 @@ HTTP.post({
 
 const temporary = "" + Bot.getProperty("Type" + user.id)
 
-
 if (
   Bot.getProperty("Type" + user.id) == null ||
   Bot.getProperty("Type" + user.id) == ""
@@ -54,31 +53,20 @@ if (
 
 if(temporary === "Original") {
   
-  ForwardMessage("https://t.me/abcdefehduauqu/2797" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2798" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2799" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2800" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2801" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2802" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/2803" , user.telegramid)
+  ForwardMessage("https://t.me/abcdefehduauqu/3367")
+
   
 }
 
 if(temporary === "Translation") {
   
-  ForwardMessage("https://t.me/abcdefehduauqu/3293" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3294" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3301" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3302" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3303" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3304" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3305" , user.telegramid)
+
   
 }
 
 if(temporary === "lectureYA") {
     
-    Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
+    
     
   }
   
@@ -87,10 +75,10 @@ if(temporary === "lectureYA") {
     Bot.sendMessage("غير متوفر حاليا ، قريبا ان شاء الله")
     
   }
-  
-  if(temporary === "Short") {
+
+
+if(temporary === "Short") {
   
   Bot.sendMessage("قريبا ان شاء الله تعالى")
 
 }
-

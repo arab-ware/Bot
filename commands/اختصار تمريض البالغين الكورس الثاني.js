@@ -38,6 +38,7 @@ function ForwardMessage(link, chat_id) {
 }
 
 ForwardMessage("https://t.me/abcdefehduauqu/2718", user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3365", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2719", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2720", user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2721", user.telegramid)

@@ -76,9 +76,14 @@ ForwardMessage("https://t.me/abcdefehduauqu/3326" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3335" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3343" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3344" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3358" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3370" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3324" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3330" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3341" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3353" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3354" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3355" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3327" , user.telegramid)
   
 }
@@ -88,17 +93,26 @@ if(temporary === "lectureYA") {
 ForwardMessage("https://t.me/abcdefehduauqu/3329" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3333" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3342" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3356" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3336" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3337" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3338" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3346" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3347" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3359" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3372" , user.telegramid)
     
   }
   
   if(temporary === "Old") {
     
- ForwardMessage("https://t.me/kufa2023/1022" , user.telegramid)
- ForwardMessage("https://t.me/kufa2023/1027" , user.telegramid)
- ForwardMessage("https://t.me/kufa2023/1029" , user.telegramid)
+ ForwardMessage("https://t.me/abcdefehduauqu/3345" , user.telegramid)
     
   }
+  
+  if(temporary === "Short") {
+  
+  Bot.sendMessage("قريبا ان شاء الله تعالى")
+
+}
 
