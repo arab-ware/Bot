@@ -26,6 +26,8 @@ const ha_pe = "التقييم الصحي - الفحص البدني"
 const cpc1 = "علم الكمبيوتر - الجانب العملي - الكورس الأول"
 const cpc2 = "علم الكمبيوتر - الجانب العملي - الكورس الثاني"
 const close = "إغلاق و رجوع"
+const arabicA = "اللغة العربية المرحلة الثانية"
+const historyOfEvil = "جرائم نظام البعث المرحلة الثانية"
 const stageOne = "المرحلة الثانية"
 const x = "\n"
 const msg = "قم باختيار المادة لو سمحت"
@@ -57,7 +59,7 @@ if(hga === "الكورس الأول") {
 } else {
 
 
-Bot.sendKeyboard(an2 + x + mbt2 + x + pp + x + pc2 + x + cpc2 + x + en_s2 + x + close + x + stageOne + x + returnToCourseTwo , msg)
+Bot.sendKeyboard(an2 + x + mbt2 + x + pp + x + pc2 + x + cpc2 + x + arabicA + x + historyOfEvil + x + close + x + stageOne + x + returnToCourseTwo , msg)
 
 }
 

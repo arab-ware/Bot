@@ -21,7 +21,8 @@ const an2 = "تمريض البالغين الكورس الثاني"
 const mbt1 = "الأحياء المجهرية النظرية الكورس الأول"
 const mbt2 = "الأحياء المجهرية النظرية الكورس الثاني"
 const mbp1 = "الأحياء المجهرية العملية الكورس الأول"
-const en_s2 = "اللغة الإنجليزية - المرحلة الثانية"
+const en_s2 = "اللغة العربية المرحلة الثانية"
+const en_s3 = "جرائم نظام البعث المرحلة الثانية"
 const ha_pe = "التقييم الصحي - الفحص البدني"
 const cpc1 = "علم الكمبيوتر - الجانب العملي - الكورس الأول"
 const cpc2 = "علم الكمبيوتر - الجانب العملي - الكورس الثاني"
@@ -57,7 +58,7 @@ if(hga === "الكورس الأول") {
 } else {
 
 
-Bot.sendKeyboard(an2 + x + mbt2 + x + pp + x + pc2 + x + cpc2 + x + en_s2 + x + close + x + stageOne + x + returnToCourseTwo , msg)
+Bot.sendKeyboard(an2 + x + mbt2 + x + pp + x + pc2 + x + cpc2 + x + en_s2 + x + en_s3 + x + close + x + stageOne + x + returnToCourseTwo , msg)
 
 }
 
