@@ -21,7 +21,7 @@ CMD*/
 BBAdmin.installBot(
   { 
     // bot will be cloned to this email
-    email: 'danielhalaiq@gmail.com' ,
+    email: 'ameerezitiraqi@gmail.com',
     bot_id: bot.id
 }
 )

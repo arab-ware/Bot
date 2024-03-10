@@ -59,7 +59,6 @@ ForwardMessage("https://t.me/abcdefehduauqu/3308" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3310" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3312" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3314" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3316" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3318" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3321" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3323" , user.telegramid)
@@ -74,11 +73,9 @@ ForwardMessage("https://t.me/abcdefehduauqu/3309" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3311" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3313" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3315" , user.telegramid)
-ForwardMessage("https://t.me/abcdefehduauqu/3317" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3320" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3322" , user.telegramid)
-  
-Bot.sendMessage("ترجمة محاضرة المضادات الحيوية غير متوفرة حاليا ، قريبا ان شاء الله")
+ForwardMessage("https://t.me/abcdefehduauqu/3380" , user.telegramid)
   
 }
 
@@ -97,6 +94,10 @@ if(temporary === "lectureYA") {
   if(temporary === "Short") {
   
   ForwardMessage("https://t.me/kufa2023/1058", user.telegramid)
+  ForwardMessage("https://t.me/kufa2023/1082", user.telegramid)
+  ForwardMessage("https://t.me/kufa2023/1083", user.telegramid)
+  ForwardMessage("https://t.me/kufa2023/1084", user.telegramid)
+
 
 }
 
