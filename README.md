@@ -1,6 +1,4 @@
-# kufanursebot - chat bot
-It is repository for chat bot: [@kufanursebot](https://t.me/kufanursebot)
-
+# arabware - chat bot
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.
 
