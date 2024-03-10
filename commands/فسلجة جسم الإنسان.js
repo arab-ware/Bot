@@ -76,6 +76,7 @@ if(temp === "Record") {
   } else if (temp === "Old") {
   
 ForwardMessage("https://t.me/kufa2023/777")
+ForwardMessage("https://t.me/kufa2023/780")
 ForwardMessage("https://t.me/kufa2023/787")
 Bot.sendMessage("اسئلة امتحان الشهر الثاني مع الحل"+"\n"+"https://t.me/kufa2023/742")
 ForwardMessage("https://t.me/kufa2023/790")

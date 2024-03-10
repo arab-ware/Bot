@@ -60,6 +60,7 @@ ForwardMessage("https://t.me/abcdefehduauqu/2764" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2765" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2766" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2767" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3375" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2768" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2769" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/2770" , user.telegramid)
@@ -78,6 +79,7 @@ ForwardMessage("https://t.me/abcdefehduauqu/3343" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3344" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3358" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3370" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3376" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3324" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3330" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3341" , user.telegramid)
@@ -93,6 +95,7 @@ if(temporary === "lectureYA") {
 ForwardMessage("https://t.me/abcdefehduauqu/3329" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3333" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3342" , user.telegramid)
+ForwardMessage("https://t.me/abcdefehduauqu/3378" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3356" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3336" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3337" , user.telegramid)
@@ -101,6 +104,8 @@ ForwardMessage("https://t.me/abcdefehduauqu/3346" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3347" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3359" , user.telegramid)
 ForwardMessage("https://t.me/abcdefehduauqu/3372" , user.telegramid)
+
+
     
   }
   

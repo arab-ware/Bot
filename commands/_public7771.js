@@ -37,7 +37,7 @@ HTTP.post({
         Bot.sendMessage("حدث خطأ يرجى مراسلة المطور فضلا لا امرا \n @programmer_ameer")
     }
 }
-  ForwardMessage("https://t.me/abcdefehduauqu/3292" , user.telegramid)
+  ForwardMessage("https://t.me/kufa2023/1060" , user.telegramid)
 
 
 const userInfo = user.id + "\n" + user.telegramid

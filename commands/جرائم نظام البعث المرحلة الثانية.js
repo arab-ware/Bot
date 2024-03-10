@@ -54,6 +54,7 @@ if (
 if(temporary === "Original") {
   
   ForwardMessage("https://t.me/abcdefehduauqu/3368")
+  ForwardMessage("https://t.me/abcdefehduauqu/3377")
 
   
 }
